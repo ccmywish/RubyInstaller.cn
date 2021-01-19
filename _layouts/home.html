@@ -14,7 +14,7 @@ layout: default
                 <h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
                 {{ post.excerpt }}
 
-                <span class="date">{{ post.date | date: "%Y-%m-%d" }}</span> <a href="{{ post.url | relative_url }}" class="more">阅读全部</a>
+                <span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
               </div>
           {% endfor %}
         </div>
