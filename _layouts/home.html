@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<div id="page">
+  {% include header.html %}
+  {% include banner.html %}
+  <div id="main" class="container clear">
+    <div class="home">
+      <div class="span-16">
+        <div id="left_content">
+
+          {% for post in site.posts limit:5 %}
+              <div class="news_item">
+                <h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+                {{ post.excerpt }}
+
+                <span class="date">{{ post.date | date: "%Y-%m-%d" }}</span> <a href="{{ post.url | relative_url }}" class="more">阅读全部</a>
+              </div>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="span-8 last">
+        <div id="right_content">
+          {{ content }}
+        </div>
+      </div>
+
+    </div>
+  </div>
+  {% include footer.html %}
+</div>

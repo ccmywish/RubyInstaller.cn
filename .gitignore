@@ -1,0 +1,9 @@
+/.jekyll-cache/**
+
+_site
+.sass-cache
+.jekyll-metadata
+_releases/*.exe
+_releases/*.7z
+_releases/*.asc
+.token.yml

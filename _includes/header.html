@@ -1,0 +1,14 @@
+<div id="header" class="container">
+  <div id="logo" class="span-10">
+    <h1><a href="{{ "/" | relative_url }}" title="To Homepage"><span/></a></h1>
+  </div>
+  <div class="span-14 last">
+    <ul id="navbar">
+      <li {% if page.url contains "/about" %}id="active"{% endif %}><a href="{{ "/about" | relative_url }}">关于</a></li>
+      <li {% if page.url contains "/downloads" %}id="active"{% endif %}><a href="{{ "/downloads" | relative_url }}">下载</a></li>
+      <li><a href="https://gitee.com/RubyKids/rubyinstaller-issue">反馈</a></li>
+    </ul>
+  </div>
+  
+  <a href="https://gitee.com/RubyKids/rubyinstaller.cn-website"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://gitee.com/RubyKids/rubyinstaller.cn-website/widgets/widget_1.svg" alt="Fork me on Gitee"></a>
+</div>
