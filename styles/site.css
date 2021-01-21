@@ -20,14 +20,14 @@ a:hover {
 }
 
 p {
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: .75em;
   line-height: 1.5em;
 }
 
 code {
-  color: #ffffff;
-  font-size: x-small;
+  color: #000000;
+  font-size: 14px;
 }
 
 pre{
@@ -119,7 +119,7 @@ div#right_content_sub {
 }
 ul#navbar {
         list-style: none;
-        margin: 27px 0 0 350px;
+        margin: 27px 0 0 500px;
         font: bold 18px/1.5 Arial, Helvetica, sans-serif;
         height: 29px;
 }
@@ -152,11 +152,11 @@ ul#navbar li#active a {
 }
 div#graphic {
         height: 263px;
-        width: 950px;
+        width: 1150px;
 }
 div#graphic_sub {
         height:84px;
-        width: 950px;
+        width: 1150px;
 }
 div#graphic h1, div#graphic_sub h1 {
         font-family: Noto Sans,Roboto,Microsoft Yahei,sans-serif;
@@ -307,7 +307,7 @@ div.news_item a:hover.more {
         background:url("../assets/bullet.png") no-repeat 0 -20px;
 }
 p, div.news_item p {
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: .75em;
   line-height: 1.5em;
 }
@@ -395,6 +395,7 @@ div#footer a:hover {
         text-decoration: underline;
 }
 div#copyright {
+        font-size: medium;
         color: #848383;
         text-align: right;
 }
