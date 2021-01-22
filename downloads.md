@@ -1,6 +1,6 @@
 ---
 layout: downloads
-title: Downloads
+title: 下载
 permalink: /downloads/
 ---
 

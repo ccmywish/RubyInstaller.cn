@@ -3,7 +3,7 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
-title: RubyInstaller for Windows
+title: RubyInstaller for Windows - 国内镜像
 ---
 
 ## 致谢
