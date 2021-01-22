@@ -12,6 +12,10 @@ markdown: kramdown
 exclude:
   - Gemfile
   - Gemfile.lock
+  - README.md
+  - Rakefile
+  - LICENSE.txt
+  - add_checksums.rb
 
 collections:
   "add-ons":
