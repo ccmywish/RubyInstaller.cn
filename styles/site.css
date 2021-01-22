@@ -117,6 +117,12 @@ div#right_content {
 div#right_content_sub {
         padding: 32px 0 20px 40px;
 }
+
+div#right_content_sub ul{
+        font-size: large;
+}
+
+
 ul#navbar {
         list-style: none;
         margin: 27px 0 0 500px;
