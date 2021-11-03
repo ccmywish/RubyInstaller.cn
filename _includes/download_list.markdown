@@ -1,6 +1,6 @@
-不确定要下载哪个版本？请阅读右栏中的建议。
+不确定要下载哪个版本？ 请阅读右栏中的建议。
 
-所有下载链接已经在[上海交通大学镜像服务rubyinstaller2](https://mirror.sjtu.edu.cn/github-release/oneclick/rubyinstaller2/releases/download/?mirror_intel_list)中存档。本站将在近日逐步完善所有链接，与上游保持一致。
+没有您想要下载的版本？ 所有下载链接已经在[上海交通大学镜像服务-rubyinstaller2](https://mirror.sjtu.edu.cn/github-release/oneclick/rubyinstaller2/releases/download/?mirror_intel_list)中存档，您可自行前往下载。
 
 <br>
 
