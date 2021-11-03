@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "RubyInstaller 2.7.2-1, 2.6.6-2 和 2.5.8-2 发布了!"
+title:  "发布 RubyInstaller 2.7.2-1, 2.6.6-2 和 2.5.8-2"
 author: Lars Kanis，ccmywish
 ---
 

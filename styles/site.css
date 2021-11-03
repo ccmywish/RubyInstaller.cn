@@ -28,6 +28,8 @@ p {
 code {
   color: #000000;
   font-size: 14px;
+  padding: 5px;
+  background-color: #EFF1F3;
 }
 
 pre{
@@ -37,7 +39,7 @@ border: 1px solid #dddddd;
 }
 
 h2 {
-        font-family: Noto Sans,Roboto,Microsoft Yahei,sans-serif;
+        font-family: Arial, sans-serif;
         font-size: 25px;
         font-weight: bold;
 }
@@ -45,7 +47,7 @@ h2 {
 h3 {
 text-transform: uppercase;
 font-weight: bold;
-font-size: 14px;
+font-size: 18px;
 }
 
 thead th {
@@ -165,7 +167,7 @@ div#graphic_sub {
         width: 1150px;
 }
 div#graphic h1, div#graphic_sub h1 {
-        font-family: Noto Sans,Roboto,Microsoft Yahei,sans-serif;
+        font-family: Arial, sans-serif;
         font-size: 34px;
         font-weight: bold;
         margin: 20px 0 10px 0px;
@@ -313,7 +315,7 @@ div.news_item a:hover.more {
         background:url("../assets/bullet.png") no-repeat 0 -20px;
 }
 p, div.news_item p {
-  font-size: 16px;
+  font-size: 20px;
   margin-bottom: .75em;
   line-height: 1.5em;
 }

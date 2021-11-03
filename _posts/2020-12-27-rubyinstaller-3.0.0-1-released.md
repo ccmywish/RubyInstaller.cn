@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "RubyInstaller 3.0.0-1 发布了!"
+title:  "发布 RubyInstaller 3.0.0-1"
 author: Lars Kanis, ccmywish
 ---
 RubyInstaller-3.0.0-1 发布了!
