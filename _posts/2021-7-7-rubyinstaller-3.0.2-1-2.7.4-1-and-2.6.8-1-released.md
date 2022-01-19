@@ -11,7 +11,7 @@ RubyInstaller versions 3.0.2-1, 2.7.4-1 and 2.6.8-1 已经发布了。这些是�
 增加了 `racc`, `rbs`, `typerof` 可知性文件到 /bin 目录。查阅 [#231](https://github.com/oneclick/rubyinstaller2/issues/231)
 
 
-查看 [ruby-3.0.2 官方发布](https://www.ruby-lang.org/en/news/2021/07/07/ruby-3-0-2-released/), [ruby-2.7.4 官方发布](https://www.ruby-lang.org/en/news/2021/07/07/ruby-2-7-4-released/) and [ruby-2.6.8 官方发布](https://www.ruby-lang.org/en/news/2021/07/07/ruby-2-6-8-released/) for more details.
+查看 [ruby-3.0.2 官方发布](https://www.ruby-lang.org/en/news/2021/07/07/ruby-3-0-2-released/), [ruby-2.7.4 官方发布](https://www.ruby-lang.org/en/news/2021/07/07/ruby-2-7-4-released/) 和 [ruby-2.6.8 官方发布](https://www.ruby-lang.org/en/news/2021/07/07/ruby-2-6-8-released/) 以获得详情。
 
 请注意，一些gem在Windows上与Ruby-3.0并不兼容，这种情况下，你可能需要依然使用2.7直到3.0被很好的支持。
 
