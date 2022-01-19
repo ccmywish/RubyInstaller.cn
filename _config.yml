@@ -13,6 +13,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - README_maintain.md
   - Rakefile
   - LICENSE.txt
   - add_checksums.rb
