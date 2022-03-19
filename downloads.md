@@ -6,7 +6,7 @@ permalink: /downloads/
 
 ### 我应该下载哪个版本？
 
-如果您即将开始使用Ruby，但是不知道要安装哪个版本，我们建议您使用<b>Ruby+Devkit 3.1.X（x64</b>安装程序。它提供了数量最多的能够兼容的 Gem，并将<b>MSYS2 Devkit<b>与Ruby一起安装，因此可以立即编译带有C语言扩展的Gem. 仅当您有需求必须使用自定义的32位DLL或COM库(二进制对象文件)时，才建议使用32位（x86）版本。
+如果您即将开始使用Ruby，但是不知道要安装哪个版本，我们建议您使用<b>Ruby+Devkit 3.1.X (x64)</b>安装程序。它提供了数量最多的能够兼容的Gem，并将<b>MSYS2 Devkit</b>与Ruby一起安装，因此可以立即编译带有C语言扩展的Gem. 仅当您有需求必须使用自定义的32位DLL或COM库(二进制对象文件)时，才建议使用32位(x86)版本。
 
 <br>
 
@@ -20,7 +20,7 @@ permalink: /downloads/
 
 ### RubyInstaller-HEAD
 
-RubyInstaller head是[Ruby开发分支](https://github.com/ruby/ruby/)的每日更新版本。它可以用于gems或应用程序上的持续集成测试(CI)，因此您可以为 Ruby Core 即将发生的变化做好准备。在[Github发行版部分](https://github.com/oneclick/rubyinstaller2/releases/tag/rubyinstaller-head)中提供了构建好的下载链接。它们可以很容易地被集成到[Github Actions](https://github.com/oneclick/rubyinstaller2/wiki/For-gem-developers#user-content-github-actions) 或 [Appveyor](https://github.com/oneclick/rubyinstaller2/wiki/For-gem-developers#user-content-appveyor)
+RubyInstaller head是[Ruby开发分支](https://github.com/ruby/ruby/)的每日更新版本。它可以用于gems或应用程序上的持续集成测试(CI)，因此您可以为 Ruby Core 即将发生的变化做好准备。在[Github发行版部分](https://github.com/oneclick/rubyinstaller2/releases/tag/rubyinstaller-head)中提供了构建好的下载链接。它们可以很容易地被集成到[Github Actions](https://github.com/oneclick/rubyinstaller2/wiki/For-gem-developers#user-content-github-actions)或[Appveyor](https://github.com/oneclick/rubyinstaller2/wiki/For-gem-developers#user-content-appveyor).
 
 <br>
 
@@ -48,11 +48,9 @@ RubyInstaller在发布之日使用最新的GCC进行编译。安装的Ruby是一
 
 Ruby核心和标准库文档是安装的一部分。我们还推荐使用在线文档 [ruby-doc.org](https://ruby-doc.org/).
 
-The Ruby core- and standard library documentation are included as part of the installation. We also recommend the online documentation, or the HTML version downloadable from ruby-doc.org.
-
 <br>
 
 ### 用户支持
 
-享受快乐的Ruby编码吧！让我们知道你的想法，或者如果你有任何问题，请在我们友好的 [RubyInstaller Google Group](https://groups.google.com/group/rubyinstaller)联系
+享受快乐的Ruby编码吧！让我们知道你的想法，或者如果你有任何问题，请在我们友好的 [RubyInstaller Google Group](https://groups.google.com/group/rubyinstaller) 中联系。
 
