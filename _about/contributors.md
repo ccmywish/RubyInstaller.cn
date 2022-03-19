@@ -16,7 +16,8 @@ order: 20
 * [ccmywish](https://gitee.com/ccmywish) 提供域名和本站倡议，进行主要的日常维护工作
 * [Alex Chi](https://github.com/skyzh)  为本站提供上海交通大学镜像
 * [Lars Kanis](https://github.com/larskanis) 上游主要维护者，为建站以及镜像服务提供了信息
-* [Ruby China](https://ruby-china.org/) 社区其他成员
+
+若您发现了新问题，新的想法以及可改善的地方(比如更好的UI)，甚至，若您想要参与日常的维护，请您在[issues](https://gitee.com/RubyKids/rubyinstaller.cn/issues)处反馈，并请阅读[CONTRIBUTING.md](https://gitee.com/RubyKids/rubyinstaller.cn/blob/main/CONTRIBUTING.md)
 
 <br>
 

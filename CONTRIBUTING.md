@@ -1,6 +1,6 @@
 # CONTRIBUTING
 
-若您发现了新问题，新的想法以及可改善的地方(比如更好的UI)，甚至，若您想要参与日常的维护，请您在此[issues]((https://gitee.com/RubyKids/rubyinstaller.cn/issues) 处反馈，并请阅读下面的内容。
+若您发现了新问题，新的想法以及可改善的地方(比如更好的UI)，甚至，若您想要参与日常的维护，请您在此[issues](https://gitee.com/RubyKids/rubyinstaller.cn/issues) 处反馈，并请阅读下面的内容。
 
 <br>
 
@@ -38,4 +38,4 @@ bundle exec jekyll build
 2. 下载链接请参考以往的上海交通大学镜像地址，它和Github的下载地址略有不同，多了一个目录
 3. 下载链接加粗需要使用 `recommended: true`，请和上游保持一致
 
-
+<br>
