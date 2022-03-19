@@ -7,7 +7,7 @@ order: 10
 
 ## 关于 RubyInstaller.cn
 
-本站点提供 rubyinstaller.cn 常见的下载链接镜像，供国内用户使用。
+本站提供rubyinstaller.org中常见的下载链接镜像，供国内用户使用。
 
 <br>
 

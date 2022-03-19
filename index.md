@@ -8,9 +8,7 @@ title: RubyInstaller for Windows - 国内镜像
 
 ## 致谢
 
-感谢 [上海交通大学软件源镜像服务](https://mirrors.sjtug.sjtu.edu.cn/) 为本站提供所有镜像。国内用户在Windows上安装Ruby的多年难堪状况得到改善，惠及了一大批潜在用户，希望所有受益者能够如Ruby之父Matz所说的: 
-
-> Use Ruby to make the world better.
+感谢[上海交通大学软件源镜像服务](https://mirrors.sjtug.sjtu.edu.cn/)为本站提供所有下载链接。国内用户在Windows上难以安装Ruby的多年难堪状况终于得到解决。
 
 
 
