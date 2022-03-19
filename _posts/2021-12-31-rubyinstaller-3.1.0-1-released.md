@@ -28,4 +28,4 @@ RubyInstaller的Devkit现在打包了基于 UCRT 的 MINGW 包。
 
 一个之前的RubyInstaller-3.0.x 或 2.7.x 安装 <b>不应当</b> 被通过将RubyInstaller-3.0.x安装同一目录下直接更新。这是因为一些带有C语言扩展的gem在ruby-3.0和3.1之间并不兼容。最好像我们提议的，使用新的目录来存放3.1.x
 
-所有安装包文件都放在了[下载区域]({{ "/downloads/" | relative_url }})!
+所有安装程序都放在了[下载区域]({{ "/downloads/" | relative_url }})!

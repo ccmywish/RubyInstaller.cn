@@ -9,4 +9,4 @@ RubyInstaller-3.1.1-1 发布了! 这是一个维护版本，修复了一些错�
 
 一个之前的 RubyInstaller-3.1.0 <b>可以</b> 通过简单的安装 RubyInstaller-3.1.1 来获得更新。
 
-所有安装包文件都放在了[下载区域]({{ "/downloads/" | relative_url }})!
+所有安装程序都放在了[下载区域]({{ "/downloads/" | relative_url }})!

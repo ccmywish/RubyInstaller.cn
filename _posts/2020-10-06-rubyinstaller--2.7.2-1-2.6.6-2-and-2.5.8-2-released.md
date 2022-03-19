@@ -22,5 +22,5 @@ ridk exec sh -c "sed -e '/repo.msys2.org/ s/Serv/#Serv/' -i /etc/pacman.d/mirror
 ridk exec sh -c "cat /etc/pacman.d/mirrorlist.*"
 ```
 
-所有的文件都可以在[下载页面]({{ "/downloads/" | relative_url }})找到!
+所有的安装程序都可以在[下载页面]({{ "/downloads/" | relative_url }})找到!
 

@@ -12,4 +12,4 @@ Ruby-3.0.0 完成了在Windows上将UTF-8作为主要字符编码的转变。这
 
 <b>不能</b> 直接使用 RubyInstaller-3.0.x 将目标目录放在之前存在的 RubyInstaller-2.6.x or 2.7.x 安装目录下来完成更新。因为伴随有C扩展的gem在ruby-2.7和3.0中不兼容。最好使用一个新目录来安装 3.0.x 
 
-所有的文件都可以在[下载页面]({{ "/downloads/" | relative_url }})找到!
+所有的安装程序都可以在[下载页面]({{ "/downloads/" | relative_url }})找到!
