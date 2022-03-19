@@ -1,10 +1,12 @@
-## 介绍
+# RubyInstaller.cn
 
 🎏 RubyInstaller for Windows 国内镜像网站 [rubyinstaller.cn](https://rubyinstaller.cn) 已上线运行
 
 原网站: [rubyinstaller.org](https://rubyinstaller.org)
 
 Forked from [rubyinstaller.org-website](https://github.com/oneclick/rubyinstaller.org-website)
+
+如果你想参与网站日常维护，请参考[CONTRIBUTING.md](./CONTRIBUTING.md)
 
 <br>
 

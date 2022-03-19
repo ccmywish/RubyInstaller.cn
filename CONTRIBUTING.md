@@ -1,4 +1,10 @@
-# 网站维护
+# CONTRIBUTING
+
+若您发现了新问题，新的想法以及可改善的地方(比如更好的UI)，甚至，若您想要参与日常的维护，请您在此[issues]((https://gitee.com/RubyKids/rubyinstaller.cn/issues) 处反馈，并请阅读下面的内容。
+
+<br>
+
+## 文件
 
 1. `_posts` 目录存放文章
 2. `_data` 目录存放下载链接
@@ -26,7 +32,7 @@ bundle exec jekyll build
 
 <br>
 
-## 维护内容
+## 维护内容和要点
 
 1. 编辑文章时中英文之间不需要有空格，因为其CSS的设置使得无空格时更加清晰。
 2. 下载链接请参考以往的上海交通大学镜像地址，它和Github的下载地址略有不同，多了一个目录
