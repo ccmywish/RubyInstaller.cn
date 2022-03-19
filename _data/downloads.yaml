@@ -1,25 +1,29 @@
 ---
 - filetype: ridkexe
-  href: https://mirror.sjtu.edu.cn/github-release/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.0-1/rubyinstaller-devkit-3.1.0-1-x64.exe
-  name: Ruby+Devkit 3.1.0-1 (x64)
-  sha256: dd6c23c108e87b74b72762f151912f3891f6ff39144e0766feffa3216dfb81b4
-  gpgsign: https://mirror.sjtu.edu.cn/github-release/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.0-1/rubyinstaller-devkit-3.1.0-1-x64.exe.asc
+  href: https://mirror.sjtu.edu.cn/github-release/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.1-1/rubyinstaller-devkit-3.1.1-1-x64.exe 
+  name: Ruby+Devkit 3.1.1-1 (x64)
+  sha256: 23d48c712b2043ea4aca8abde432ccad7d21abeb23d0496a95049d830a43e041
+  gpgsign: https://mirror.sjtu.edu.cn/github-release/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.1-1/rubyinstaller-devkit-3.1.1-1-x64.exe.asc
   show: true
   recommended: true
+- filetype: ridkexe
+  href: https://mirror.sjtu.edu.cn/github-release/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.0-1/rubyinstaller-devkit-3.1.0-1-x64.exe
+  name: Ruby+Devkit 3.1.0-1 (x64)
+  sha256: 2492b89e2c6d1eccb3de0ec2e51f74a85e7d5fa6e31e62a91f4804610e2dc87d
+  gpgsign: https://mirror.sjtu.edu.cn/github-release/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.0-1/rubyinstaller-devkit-3.1.0-1-x64.exe.asc
+  show: true
 - filetype: ridkexe
   href: https://mirror.sjtu.edu.cn/github-release/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.0.3-1/rubyinstaller-devkit-3.0.3-1-x64.exe
   name: Ruby+Devkit 3.0.3-1 (x64)
   sha256: dd6c23c108e87b74b72762f151912f3891f6ff39144e0766feffa3216dfb81b4
   gpgsign: https://mirror.sjtu.edu.cn/github-release/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.0.3-1/rubyinstaller-devkit-3.0.3-1-x64.exe.asc
   show: true
-  recommended: true
 - filetype: ridkexe
   href: https://mirror.sjtu.edu.cn/github-release/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.7.5-1/rubyinstaller-devkit-2.7.5-1-x64.exe
   name: Ruby+Devkit 2.7.5-1 (x64)
   sha256: a4865d9e555b6061382741d041455d91b058bfcbd006766663cccb5bb6bb20d3
   gpgsign: https://mirror.sjtu.edu.cn/github-release/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.7.5-1/rubyinstaller-devkit-2.7.5-1-x64.exe.asc
   show: true
-  recommended: true
 - filetype: ridkexe
   href: https://mirror.sjtu.edu.cn/github-release/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.6.9-1/rubyinstaller-devkit-2.6.9-1-x64.exe
   name: Ruby+Devkit 2.6.9-1 (x64)
