@@ -6,10 +6,10 @@
 
 Forked from [rubyinstaller.org-website](https://github.com/oneclick/rubyinstaller.org-website)
 
-如果你想参与网站日常维护，请参考[CONTRIBUTING.md](./CONTRIBUTING.md)
+如果你想参与网站日常维护，请阅读[CONTRIBUTING.md](./CONTRIBUTING.md)
 
 <br>
 
 ## 致谢
 
-此站点现由 [上海交通大学软件源镜像服务](https://mirrors.sjtug.sjtu.edu.cn/) 提供所有镜像
+此站点现由 [上海交通大学软件源镜像服务](https://mirrors.sjtug.sjtu.edu.cn/) 提供所有下载内容。
