@@ -1,6 +1,14 @@
+<div align="center">
+
 # RubyInstaller.cn
 
+[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/ccmywish)
+
 🎏 RubyInstaller for Windows 国内镜像网站 [rubyinstaller.cn](https://rubyinstaller.cn) 已上线运行
+
+</div>
+
+## 维护
 
 原网站: [rubyinstaller.org](https://rubyinstaller.org)
 
