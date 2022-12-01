@@ -422,7 +422,20 @@ a#archive { float:right; }
 a#archive:hover { text-decoration:none; }
 a#archive:after { content:"\BB"; }
 
-li.ridkexe, li.rubyinstallerexe { list-style-image:url("../assets/exe_16x16.png"); list-style-position:inside; }
+li.ridk_exe, li.rubyinstaller_exe { 
+        /* list-style-image:url("../assets/exe_16x16.png");  */
+        /* list-style-image:url("../assets/material-icon-theme-ruby.svg"); */
+        /* 取消li的小图标 */
+        list-style: none;
+        /* 上右下左 */
+        padding: 3px 0 3px 30px;
+        background-image: url("../assets/material-icon-theme-ruby.svg");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 20px;
+        list-style-position:inside; 
+}
+
 li.rubyinstaller7z, li.rubychm7z { list-style-image:url("../assets/sevenz_16x16.png"); list-style-position:inside; }
 li.chksum { list-style-image:url("../assets/chksum_16x16.png"); list-style-position:inside; }
 li.devkitsfx { list-style-image:url("../assets/sfx_24x19.png"); list-style-position:inside; }

@@ -1,7 +1,7 @@
 ## 下载链接
 
 <ul>
-  {% assign dls = site.data.downloads | where: "filetype", "ridkexe" | where: "show", "true" %}
+  {% assign dls = site.data.downloads | where: "filetype", "ridk_exe" | where: "show", "true" %}
   {% include downloadlinks.html dls=dls %}
 </ul>
 
