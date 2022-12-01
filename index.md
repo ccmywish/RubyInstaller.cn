@@ -6,6 +6,12 @@ layout: home
 title: RubyInstaller for Windows - 国内镜像
 ---
 
+<style>
+  h2 {
+    text-align: center;
+  }
+</style>
+
 ## 致谢
 
 感谢[上海交通大学软件源镜像服务](https://mirrors.sjtug.sjtu.edu.cn/)为本站提供所有下载内容。Windows用户在国内网络环境中难以下载安装Ruby的多年难堪状况终于得到解决。
