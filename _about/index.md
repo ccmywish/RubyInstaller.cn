@@ -1,6 +1,6 @@
 ---
 layout: about
-titel: 介绍
+title: 介绍
 permalink: /about/
 order: 10
 ---

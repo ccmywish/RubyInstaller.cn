@@ -1,6 +1,6 @@
 ---
 layout: about
-titel: 这是为你准备的吗?
+title: 这是为你准备的吗?
 permalink: /about/comparison/
 order: 15
 ---

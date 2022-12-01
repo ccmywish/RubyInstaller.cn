@@ -1,6 +1,6 @@
 ---
 layout: about
-titel: 贡献者
+title: 贡献者
 permalink: /about/contributors/
 order: 20
 ---
