@@ -5,18 +5,19 @@ description: >
 
   这是一个独立的基于Windows的安装程序，包括Ruby语言、执行环境、重要文档等。
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://rubyinstaller.cn" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
+
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  - README_maintain.md
+  - CONTRIBUTING.md
+  - CNAME
   - Rakefile
-  - LICENSE.txt
-  - add_checksums.rb
+  - LICENSE
 
 collections:
   "add-ons":
