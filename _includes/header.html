@@ -17,17 +17,22 @@
       </li>
 
       <li 
+        {% if page.url contains "/news" %}
+        id="active"{% endif %}>
+        <a href="{{ site.posts.first | relative_url }}">新闻</a>
+      </li>
+
+      <li 
         {% if page.url contains "/downloads" %}
         id="active"{% endif %}>
         <a href="{{ "/downloads" | relative_url }}">下载</a>
       </li>
 
       <li 
-      {% if page.url contains "/about" %}
-        id="active"
-      {% endif %}>
-      <a href="{{ "/about" | relative_url }}">关于</a>
-    </li>
+        {% if page.url contains "/about" %}
+        id="active"{% endif %}>
+        <a href="{{ "/about" | relative_url }}">关于</a>
+      </li>
 
       <li><a href="https://gitee.com/RubyKids/rubyinstaller.cn/issues">反馈</a></li>
     
