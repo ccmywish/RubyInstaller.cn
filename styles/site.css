@@ -18,8 +18,8 @@ a, a:visited {
         cursor: pointer;
 }
 a:hover {
-        color: #333333;
-        text-decoration: underline;
+        color: #8e1207;
+        text-decoration: none;
 }
 
 p {
