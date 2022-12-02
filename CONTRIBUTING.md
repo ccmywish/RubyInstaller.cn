@@ -6,11 +6,12 @@
 
 ## 文件
 
-1. `_posts` 目录存放文章
+1. `news/_posts` 目录存放文章`
 2. `_data` 目录存放下载链接
-3. `_config.yml` Jekyll配置文件
-4. `_site` 生成的目录
-5. `downloads.md` 下载页面右边侧边栏的信息
+3. `_about` 目录存放关于页面
+4.  `downloads.md` 下载页面右边侧边栏的信息
+5. `_config.yml` Jekyll配置文件
+6. `_site` Jekyll生成的目录
 
 <br>
 
