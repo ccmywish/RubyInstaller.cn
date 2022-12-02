@@ -8,9 +8,13 @@ body {
         color: #333333;
         background-color: #ebebe4;
 }
+/* 全站所有链接 */
 a, a:visited {
-        color: #ad050a;
+        padding: 0 2px;
+        font-size: 16px;
+        color: #c71d23;
         text-decoration: none;
+        transition: all 0.25s;
         cursor: pointer;
 }
 a:hover {
@@ -347,10 +351,16 @@ div.news_item a:hover.more {
         background:url("../assets/bullet.png") no-repeat 0 -20px;
 }
 p, div.news_item p {
-  font-size: 20px;
-  margin-bottom: .75em;
-  line-height: 1.5em;
+        /* 全站字体大小 */
+        font-size: 16px;
+        margin-bottom: .75em;
+        line-height: 1.5em;
 }
+p b {
+        padding-left: 2px;
+        padding-right: 2px;
+}
+
 div.knowledge_item {
         padding: 0 20px 20px 0;
 }
