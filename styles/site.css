@@ -373,7 +373,7 @@ div.news_item span.date,
 p.posted {
         font-size: 12px;
         color: #848383;
-        margin-right: 20px;
+        margin-right: 10px;
 }
 div.news_item a.more {
         background:url("../assets/bullet.png") no-repeat 0 0px;
