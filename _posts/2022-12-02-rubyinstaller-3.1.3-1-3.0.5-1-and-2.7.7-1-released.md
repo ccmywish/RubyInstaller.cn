@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "发布 RubyInstaller 3.1.3-1, 3.0.5-1, 和2.7.7-1"
-author: ccmywish, Lars Kanis
+authors: 
+  - Lars Kanis
+  - ccmywish
 ---
-RubyInstaller versions 3.1.3-1, 3.0.5-1和2.7.7-1发布了。这些是维护版本，修复了一些缺陷和安全问题。
-
-分别查看[Ruby-3.1.3官方发布通告](https://www.ruby-lang.org/en/news/2022/11/24/ruby-3-1-3-released/), [Ruby-3.0.5官方发布通告](https://www.ruby-lang.org/en/news/2022/11/24/ruby-3-0-5-released/)和 [Ruby-2.7.7官方发布通告](https://www.ruby-lang.org/en/news/2022/11/24/ruby-2-7-7-released/) 获得详情.
+RubyInstaller versions 3.1.3-1, 3.0.5-1和2.7.7-1发布了。这些是维护版本，修复了一些缺陷和安全问题。请分别查看[Ruby-3.1.3官方发布通告](https://www.ruby-lang.org/en/news/2022/11/24/ruby-3-1-3-released/), [Ruby-3.0.5官方发布通告](https://www.ruby-lang.org/en/news/2022/11/24/ruby-3-0-5-released/)和 [Ruby-2.7.7官方发布通告](https://www.ruby-lang.org/en/news/2022/11/24/ruby-2-7-7-released/) 获得详情.
 
 一个之前的RubyInstaller-2.7.x或3.0.x安装<b>不应当</b>被通过将RubyInstaller-3.1.x安装同一目录下直接更新。这是因为一些带有C语言扩展的gem在ruby-3.0和3.1之间并不兼容。最好像我们提议的，使用新的目录来存放3.1.x
 
