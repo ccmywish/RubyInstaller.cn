@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "发布 RubyInstaller 3.0.0-1"
-author: Lars Kanis, ccmywish
+authors: 
+  - Lars Kanis
+  - ccmywish
 ---
 RubyInstaller-3.0.0-1发布了!
 新版本伴随了大量的新功能以及改善。查看[Ruby-3.0.0官方发布通告](https://www.ruby-lang.org/en/news/2020/12/25/ruby-3-0-0-released/)获取更多信息。

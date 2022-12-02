@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "发布 RubyInstaller 3.1.2-1, 3.0.4-1, 2.7.6-1 和 2.6.10-1"
-author: Lars Kanis, ccmywish
+authors: 
+  - Lars Kanis
+  - ccmywish
 ---
 RubyInstaller versions 3.1.2-1, 3.0.4-1, 2.7.6-1和2.6.10-1发布了。这些是维护版本，修复了一些缺陷和安全问题。
 

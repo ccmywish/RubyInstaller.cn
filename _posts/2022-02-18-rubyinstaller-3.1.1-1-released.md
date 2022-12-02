@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "发布 RubyInstaller 3.1.1-1"
-author: Lars Kanis, ccmywish
+authors: 
+  - Lars Kanis
+  - ccmywish
 ---
 RubyInstaller-3.1.1-1 发布了!这是一个维护版本，修复了一些错误。
 

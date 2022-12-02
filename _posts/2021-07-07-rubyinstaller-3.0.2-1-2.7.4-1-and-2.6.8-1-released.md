@@ -1,7 +1,10 @@
 ---
 layout: post
 title:  "发布 RubyInstaller 3.0.2-1, 2.7.4-1 和 2.6.8-1"
-author: Shaun Mabbs，ccmywish
+authors: 
+  - Shaun Mabbs
+  - Lars Kanis
+  - ccmywish
 ---
 
 RubyInstaller 3.0.2-1, 2.7.4-1和2.6.8-1发布了。这些是维护版本，修复了一些缺陷和安全问题。

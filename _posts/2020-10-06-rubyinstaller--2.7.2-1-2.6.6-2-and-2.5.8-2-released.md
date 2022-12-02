@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "发布 RubyInstaller 2.7.2-1, 2.6.6-2 和 2.5.8-2"
-author: Lars Kanis，ccmywish
+authors: 
+  - Lars Kanis
+  - ccmywish
 ---
 
 RubyInstaller 2.7.2-1, 2.6.6-2和2.5.8-2发布了! 这些是维护版本(主要修复Bug以及安全问题)
