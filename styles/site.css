@@ -20,17 +20,41 @@ a:hover {
         text-decoration: none;
 }
 
-p {
-  font-size: 16px;
-  margin-bottom: .75em;
-  line-height: 1.5em;
+p, div.news_item p {
+        /* 全站字体大小 */
+        font-size: 16px;
+        margin-bottom: .75em;
+        line-height: 1.6em;
 }
+
+p b {
+        padding-left: 2px;
+        padding-right: 2px;
+}
+
+p strong {
+        padding-left: 2px;
+        padding-right: 2px;
+}
+
+p a {
+        padding: 0 2px;
+        /* 略小于常规段落字体16px */
+        font-size: 15px;
+}
+
 
 code {
   color: #000000;
   font-size: 14px;
   padding: 5px;
-  background-color: #EFF1F3;
+
+  /* background-color: #EFF1F3; */
+  /* 采用Jekyll doc 配色 */
+  color: #fff;
+  background-color: #272727;
+  border-radius: 5px;
+  margin: 0 2px;
 }
 
 pre{
@@ -38,6 +62,17 @@ color: #555555;
 padding: 10px;
 border: 1px solid #dddddd;
 }
+
+/* From Jekyll doc */
+pre.highlight {
+        background-color: #272727;
+        color: #fff;
+        max-width: 100%;
+        overflow-x: auto;
+        vertical-align: middle;
+        border-radius: 5px;
+        box-shadow: inset 0 1px 10px rgb(0 0 0 / 30%), 0 1px 0 rgb(255 255 255 / 10%), 0 -1px 0 rgb(0 0 0 / 50%);
+} 
 
 h2 {
         font-family: "Microsoft YaHei", Arial, sans-serif;
@@ -347,27 +382,6 @@ div.news_item a.more {
 }
 div.news_item a:hover.more {
         background:url("../assets/bullet.png") no-repeat 0 -20px;
-}
-p, div.news_item p {
-        /* 全站字体大小 */
-        font-size: 16px;
-        margin-bottom: .75em;
-        line-height: 1.5em;
-}
-p b {
-        padding-left: 2px;
-        padding-right: 2px;
-}
-
-p strong {
-        padding-left: 2px;
-        padding-right: 2px;
-}
-
-p a {
-        padding: 0 2px;
-        /* 略小于常规段落字体16px */
-        font-size: 15px;
 }
 
 div.knowledge_item {
