@@ -10,8 +10,6 @@ body {
 }
 /* 全站所有链接 */
 a, a:visited {
-        padding: 0 2px;
-        font-size: 16px;
         color: #c71d23;
         text-decoration: none;
         transition: all 0.25s;
@@ -364,6 +362,12 @@ p b {
 p strong {
         padding-left: 2px;
         padding-right: 2px;
+}
+
+p a {
+        padding: 0 2px;
+        /* 略小于常规段落字体16px */
+        font-size: 15px;
 }
 
 div.knowledge_item {
