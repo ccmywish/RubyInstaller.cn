@@ -3,7 +3,7 @@ email:
 description: > 
   Windows上安装Ruby的最简单方式
 
-  这是一个独立的基于Windows的安装程序，包括Ruby语言、执行环境、重要文档等。
+  完整独立的Windows安装包，包含Ruby解释器、MSYS2、文档等，无需安装WSL等虚拟机。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rubyinstaller.cn" # the base hostname & protocol for your site, e.g. http://example.com
 
