@@ -1,5 +1,5 @@
 title: RubyInstaller for Windows - 国内镜像
-email: 
+email: ccmywish@qq.com
 description: > 
   Windows上安装Ruby的最简单方式
 
@@ -15,6 +15,7 @@ exclude:
   - Gemfile.lock
   - README.md
   - CONTRIBUTING.md
+  - CHANGELOG.md
   - CNAME
   - Rakefile
   - LICENSE
