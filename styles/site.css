@@ -6,6 +6,7 @@ body {
         font-size: 12px;
         line-height: 1.5;
         color: #333333;
+        background-color: #ebebe4;
 }
 a, a:visited {
         color: #ad050a;
@@ -37,7 +38,7 @@ border: 1px solid #dddddd;
 }
 
 h2 {
-        font-family: Arial, sans-serif;
+        font-family: "Microsoft YaHei", Arial, sans-serif;
         font-size: 25px;
         font-weight: bold;
 }
@@ -110,6 +111,7 @@ div#left_content {
         padding-bottom: 20px;
         padding-top: 32px;
 }
+
 div#left_content_sub {
         padding-top: 32px;
         padding-bottom: 20px;
@@ -117,10 +119,12 @@ div#left_content_sub {
         height: 390px;
         overflow-y: auto;
 }
+
 div#right_content {
         padding-bottom: 20px;
         padding-top: 32px;
 }
+
 div#right_content_sub {
         padding: 32px 0 20px 40px;
 }
