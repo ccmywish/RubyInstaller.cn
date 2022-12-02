@@ -6,9 +6,7 @@ authors:
   - ccmywish
 ---
 
-RubyInstaller 2.7.2-1, 2.6.6-2和2.5.8-2发布了! 这些是维护版本(主要修复Bug以及安全问题)
-
-这个版本解决了一些[最近的issues](https://github.com/oneclick/rubyinstaller2/issues/184) 它们主要与MSYS2包安装和MSYS2更新有关。
+RubyInstaller 2.7.2-1, 2.6.6-2和2.5.8-2发布了! 这些是维护版本(主要修复Bug以及安全问题)。这个版本解决了一些[最近的issues](https://github.com/oneclick/rubyinstaller2/issues/184) 它们主要与MSYS2包安装和MSYS2更新有关。
 
 它添加了RI文档作为可选的安装组件，该组件很好地集成到Ruby-2.7上的`irb`中，并改进了[`ridk use`](https://github.com/oneclick/rubyinstaller2/wiki/The-ridk-tool)命令。
 

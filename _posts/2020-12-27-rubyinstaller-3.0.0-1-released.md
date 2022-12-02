@@ -5,8 +5,7 @@ authors:
   - Lars Kanis
   - ccmywish
 ---
-RubyInstaller-3.0.0-1发布了!
-新版本伴随了大量的新功能以及改善。查看[Ruby-3.0.0官方发布通告](https://www.ruby-lang.org/en/news/2020/12/25/ruby-3-0-0-released/)获取更多信息。
+RubyInstaller-3.0.0-1发布了! 新版本伴随了大量的新功能以及改善。查看[Ruby-3.0.0官方发布通告](https://www.ruby-lang.org/en/news/2020/12/25/ruby-3-0-0-released/)获取更多信息。
 
 Ruby-3.0.0完成了在Windows上将UTF-8作为主要字符编码的转变。这个功能为文件系统和环境变量启用了完整的Unicode字符集，并增加了与其他工具和操作系统的兼容性。
 
