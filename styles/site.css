@@ -1,5 +1,3 @@
-/* Basic ------------------------------------------------------------------- */
-
 body {
         padding-top: 0px;
         padding-bottom: 0px;
@@ -95,12 +93,19 @@ div#right_content_sub h2 {
 #page {
         background: #ffffff url(../assets/bg.png) repeat-x top left;
 }
+
+/* 取消顶部蓝色栏
 #page-sub {
         background: #ffffff url(../assets/bg_sub.png) repeat-x top left;
-}
+} 
+*/
+
 div#header {
-        height: 85px;
+        background-color: #cc342d;
+        /* 与Jekyll doc的header宽度保持一致，原为85 */
+        height: 80px;
 }
+
 div#left_content {
         padding-bottom: 20px;
         padding-top: 32px;
@@ -124,10 +129,10 @@ div#right_content_sub ul{
         font-size: large;
 }
 
-
+/* header的链接导航 */
 ul#navbar {
         list-style: none;
-        margin: 27px 0 0 500px;
+        margin: 28px 0px 0px 56px;
         font: bold 18px/1.5 Arial, Helvetica, sans-serif;
         height: 29px;
 }
@@ -137,12 +142,39 @@ ul#navbar li {
         line-height:29px;
 }
 ul#navbar li#active {
-        background:url("../assets/menu_active.png") no-repeat bottom right;
+        /* background:url("../assets/menu_active.png") no-repeat bottom right; */
 }
 ul#navbar li a, ul#navbar li span {
+        color: #ffffff;
         display:block;
         padding: 0 10px 0 10px;
 }
+
+/* TODO: 设置active后的状态，要么像Jekyll一样，整个词背景变化，或者加下划线 */
+ul#navbar li#active a {
+        /* text-decoration: underline; */
+        /*  border-bottom:   3px solid white; */
+
+        /* color: #ffffff; */
+        /* background:url("../assets/menu_active_left.png") no-repeat left center; */
+}
+
+
+ul#navbar li a:hover{
+        /* 默认会有一个下划线，所以这里强制取消 */
+        text-decoration: none; 
+} 
+
+ul#navbar li a:hover::after{
+        content: ""; /* This is necessary for the pseudo element to work. */ 
+        display: block; /* This will put the pseudo element on its own line. */
+        margin: 0 auto; /* This will center the border. */
+        width: 100%; /* Change this to whatever width you want. */
+        padding-top: 0.5px; /* This creates some space between the element and the border. */
+        border-bottom: 3px solid white; /* This creates the border. Replace black with whatever color you want. */
+}
+
+
 
 .cufon-active #navbar li a { /* for Cufon.replace('h1') */
         font-size: 20px;
@@ -154,10 +186,6 @@ ul#navbar li a, ul#navbar li span {
         font-size: 20px;
 }
 
-ul#navbar li#active a {
-        color: #ffffff;
-        background:url("../assets/menu_active_left.png") no-repeat left center;
-}
 div#graphic {
         height: 263px;
         width: 1150px;
