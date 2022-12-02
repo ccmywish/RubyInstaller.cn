@@ -2,6 +2,7 @@
 layout: page
 title: ""
 ---
+<!-- 侧边栏 -->
 <div class="span-5">
   <div id="left_content_sub">
     <ul id="subnavbar">
@@ -29,7 +30,28 @@ title: ""
         {% include disqus_comments.html %}
       {% endif %}
       <footer class="post-footer">
-        <p class="posted">{% if page.author %} Posted by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span> on {% endif %}<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
+        <br>
+        <br>
+
+        <p class="posted">
+          <!-- 我非常震惊，这里全部都使用page而不是post！！
+            实际上，只有page是first citizen. post只能通过site.posts来访问 
+          -->
+          {% if page.authors %}
+            Posted by 
+            {% for author in page.authors %} 
+            {% if forloop.last %} 
+              <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ author }}</span></span> 
+            {% else %} 
+              <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ author }},</span></span> 
+            {% endif %}
+            {% endfor %}
+
+          {% else %}
+            Posted by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span> 
+          {% endif %}
+
+          on <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
       </footer>
     </article>
   </div>
