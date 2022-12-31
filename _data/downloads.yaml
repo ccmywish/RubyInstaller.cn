@@ -2,7 +2,7 @@
 - filetype: ridk_exe
   href: https://mirror.sjtu.edu.cn/github-release/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.2.0-1/rubyinstaller-devkit-3.2.0-1-x64.exe
   name: Ruby+Devkit 3.2.0-1 (x64)
-  sha256: c3ab4fa2647ccf74129ca7ccdcf72e7b7d76f4dc26ec30eda5df32529b0693bb
+  sha256: 8360d61f316f3645ed087b5c3e759e152c63d5fa07bf04f2924634dfbe279477
   gpgsign: https://mirror.sjtu.edu.cn/github-release/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.2.0-1/rubyinstaller-devkit-3.2.0-1-x64.exe.asc
   show: true
   recommended: true
