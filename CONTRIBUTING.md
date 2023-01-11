@@ -8,6 +8,7 @@
 
 1. 导航栏点击后应显示我们当前所在位置
 2. 添加RSS feed
+3. 导航栏收窄一点
 
 <br>
 
@@ -31,11 +32,17 @@ bundle
 # 在Gemfile的指定下更新依赖，更新Gemfile.lock
 bundle update
 
+# 更新使用的bundler
+bundle update --bundler
+
 # 查看jekyll版本
-jekyll -v
+bundle exec jekyll -v
+
+# 开发时使用
+bundle exec jekyll s(erve)
 
 # 在 _site 目录下生成
-bundle exec jekyll build    
+bundle exec jekyll build
 ```
 
 <br>
