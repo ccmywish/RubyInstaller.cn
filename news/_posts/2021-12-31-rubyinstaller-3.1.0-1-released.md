@@ -5,7 +5,7 @@ authors:
   - Lars Kanis
   - ccmywish
 ---
-RubyInstaller-3.1.0-1 发布了! 此版本提供了一系列新功能与新改进。请查看[Ruby-3.1.0发布说明](https://www.ruby-lang.org/en/news/2021/12/25/ruby-3-1-0-released/)获取详情。
+RubyInstaller 3.1.0-1发布了! 此版本提供了一系列新功能与新改进。请查看[Ruby 3.1.0发布说明](https://www.ruby-lang.org/en/news/2021/12/25/ruby-3-1-0-released/)获取详情。
 
 RubyInstaller-3.1.0-x64更换了一个C-runtime，即使用`UCRT`来替换旧的`MSVCRT`.
 
