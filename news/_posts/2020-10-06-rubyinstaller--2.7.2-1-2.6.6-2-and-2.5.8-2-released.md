@@ -12,11 +12,11 @@ RubyInstaller 2.7.2-1, 2.6.6-2和2.5.8-2发布了! 这些是维护版本(主要�
 
 此外，打包的库以及TLS CA列表也有一些更新。
 
-查看[Ruby-2.7.2官方发布通告](https://www.ruby-lang.org/en/news/2020/10/02/ruby-2-7-2-released/)以及RubyInstaller变更记录文件[RubyInstaller-2.5.8-2](https://github.com/oneclick/rubyinstaller2/blob/master/CHANGELOG-2.5.md#rubyinstaller-258-2---2020-10-06), [RubyInstaller-2.6.6-2](https://github.com/oneclick/rubyinstaller2/blob/master/CHANGELOG-2.6.md#rubyinstaller-266-2---2020-10-06) and [RubyInstaller-2.7.2-1](https://github.com/oneclick/rubyinstaller2/blob/master/CHANGELOG-2.7.md#rubyinstaller-272-1---2020-10-06).
+查看[Ruby 2.7.2发布说明](https://www.ruby-lang.org/en/news/2020/10/02/ruby-2-7-2-released/)以及RubyInstaller变更记录文件[RubyInstaller 2.5.8-2](https://github.com/oneclick/rubyinstaller2/blob/master/CHANGELOG-2.5.md#rubyinstaller-258-2---2020-10-06), [RubyInstaller 2.6.6-2](https://github.com/oneclick/rubyinstaller2/blob/master/CHANGELOG-2.6.md#rubyinstaller-266-2---2020-10-06) and [RubyInstaller 2.7.2-1](https://github.com/oneclick/rubyinstaller2/blob/master/CHANGELOG-2.7.md#rubyinstaller-272-1---2020-10-06).
 
 
-不幸的是当前主要的MSYS2包服务器[https://repo.msys2.org](https://repo.msys2.org)处于宕机中。其他可选的hosts会被`pacman`自动选中，但是这个过程会等待很久。
-为了避免这个延迟，你也许你可以将host注释掉(下方的第一个命令)，并查看剩余的hosts(下方的第二个命令)
+不幸的是当前主要的MSYS2包服务器[https://repo.msys2.org](https://repo.msys2.org)处于宕机中。其他可选的hosts会被`pacman`自动选中，但是这个过程会等待很久。为了避免这个延迟，你也许你可以将host注释掉(下方的第一个命令)，并查看剩余的hosts(下方的第二个命令)。
+
 ```
 # In PowerShell or CMD
 ridk exec sh -c "sed -e '/repo.msys2.org/ s/Serv/#Serv/' -i /etc/pacman.d/mirrorlist.*"
@@ -24,4 +24,3 @@ ridk exec sh -c "cat /etc/pacman.d/mirrorlist.*"
 ```
 
 所有的安装程序都可以在[下载页面]({{ "/downloads/" | relative_url }})找到!
-

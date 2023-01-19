@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "发布 RubyInstaller 3.1.0-1"
-authors: 
+authors:
   - Lars Kanis
   - ccmywish
 ---
-RubyInstaller-3.1.0-1 发布了! 此版本提供了一系列新功能与新改进。请查看[Ruby-3.1.0官方发布通告](https://www.ruby-lang.org/en/news/2021/12/25/ruby-3-1-0-released/)获取详情。
+RubyInstaller-3.1.0-1 发布了! 此版本提供了一系列新功能与新改进。请查看[Ruby-3.1.0发布说明](https://www.ruby-lang.org/en/news/2021/12/25/ruby-3-1-0-released/)获取详情。
 
 RubyInstaller-3.1.0-x64更换了一个C-runtime，即使用`UCRT`来替换旧的`MSVCRT`.
 
@@ -16,7 +16,7 @@ RubyInstaller-3.1.0-x64更换了一个C-runtime，即使用`UCRT`来替换旧的
 
 尤其是，现在的Ruby和Gem的Platform已经从`x64-mingw32`更换为`x64-mingw-ucrt`, 并且MSYS2包前缀现在也变为`mingw-w64-ucrt-x86_64-`
 
-RubyInstaller的Devkit现在打包了基于`UCRT`的MINGW包。 
+RubyInstaller的Devkit现在打包了基于`UCRT`的MINGW包。
 
 `ridk install`可以被用于安装这些包到MSYS2一个之前的或共享的位置。
 

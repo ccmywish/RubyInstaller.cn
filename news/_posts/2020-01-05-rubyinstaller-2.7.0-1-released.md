@@ -7,7 +7,7 @@ authors:
 ---
 RubyInstaller 2.7.0-1发布了！查看[Ruby 2.7.0发布说明](https://www.ruby-lang.org/en/news/2019/12/25/ruby-2-7-0-released/)和[RubyInstaller CHANGELOG](https://github.com/oneclick/rubyinstaller2/blob/master/CHANGELOG-2.7.md)来获取详情。
 
-请注意，一些Gems还不兼容Windows上的Ruby-2.7。因此，您应该继续使用2.6，直到2.7得到良好的支持为止，除非您想做出贡献并修复剩余的问题。
+请注意，一些Gems还不兼容Windows上的Ruby 2.7。因此，您应该继续使用2.6，直到2.7得到良好的支持为止，除非您想做出贡献并修复剩余的问题。
 
 到目前为止，RubyInstaller使用[rb-readline](https://github.com/ConnorAtherton/rb-readline)作为`irb`和其他交互式控制台应用程序的行编辑器。这是因为GNU readline库在Windows上不能正常工作。
 

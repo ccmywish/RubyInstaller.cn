@@ -5,7 +5,7 @@ authors:
   - Lars Kanis
   - ccmywish
 ---
-RubyInstaller-3.2.0-1 发布了! 此次发布包含了一众新功能与改善。请查看 [Ruby-3.2.0官方发布通告](https://www.ruby-lang.org/en/news/2022/12/25/ruby-3-2-0-released/) 获悉详情。
+RubyInstaller-3.2.0-1 发布了! 此次发布包含了一众新功能与改善。请查看 [Ruby-3.2.0发布说明](https://www.ruby-lang.org/en/news/2022/12/25/ruby-3-2-0-released/) 获悉详情。
 
 Ruby在Windows平台上的一个显著的增进是[对UNIXSocket的支持](https://bugs.ruby-lang.org/issues/19135).
 

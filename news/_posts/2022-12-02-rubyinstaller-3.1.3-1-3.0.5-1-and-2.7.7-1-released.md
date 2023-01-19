@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "发布 RubyInstaller 3.1.3-1, 3.0.5-1, 和2.7.7-1"
-authors: 
+authors:
   - Lars Kanis
   - ccmywish
 ---
-RubyInstaller versions 3.1.3-1, 3.0.5-1和2.7.7-1发布了。这些是维护版本，修复了一些缺陷和安全问题。请分别查看[Ruby-3.1.3官方发布通告](https://www.ruby-lang.org/en/news/2022/11/24/ruby-3-1-3-released/), [Ruby-3.0.5官方发布通告](https://www.ruby-lang.org/en/news/2022/11/24/ruby-3-0-5-released/)和 [Ruby-2.7.7官方发布通告](https://www.ruby-lang.org/en/news/2022/11/24/ruby-2-7-7-released/) 获得详情.
+RubyInstaller versions 3.1.3-1, 3.0.5-1和2.7.7-1发布了。这些是维护版本，修复了一些缺陷和安全问题。请分别查看[Ruby-3.1.3发布说明](https://www.ruby-lang.org/en/news/2022/11/24/ruby-3-1-3-released/), [Ruby-3.0.5发布说明](https://www.ruby-lang.org/en/news/2022/11/24/ruby-3-0-5-released/)和 [Ruby-2.7.7发布说明](https://www.ruby-lang.org/en/news/2022/11/24/ruby-2-7-7-released/) 获得详情.
 
 除此之外，有一些 [RubyInstaller自身的变化](https://github.com/oneclick/rubyinstaller2/blob/a09714dc05786947d77970f387194aafc1f9e2b3/CHANGELOG-3.1.md#rubyinstaller-313-1---2022-11-27).
 
