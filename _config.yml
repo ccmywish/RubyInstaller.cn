@@ -29,3 +29,6 @@ collections:
     output: true
   "about":
     output: true
+
+feed:
+  posts_limit: 20
