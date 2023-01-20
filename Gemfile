@@ -11,7 +11,8 @@ gem "jekyll", "~> 4.3"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
    # gem "jekyll-feed", "~> 0.6"
-   gem "jekyll-avatar", "~> 0.8"
+   gem "jekyll-avatar",  "~> 0.8"
+   gem "jekyll-sitemap", "~> 1.4"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
