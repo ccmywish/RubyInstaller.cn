@@ -12,7 +12,6 @@ RubyInstaller将本机Windows程序的可能性与丰富的UNIX工具集[MSYS2](
 
 RubyInstaller是使用Ruby进行开发和生产的一种很好的方法，特别是当您只想使用Ruby进行日常脚本编写或需要访问Windows资源（如硬件设备、DLL、OLE、图形用户界面或GPU）时。
 
-
 <br>
 
 ### 对比
@@ -25,7 +24,6 @@ RubyInstaller是使用Ruby进行开发和生产的一种很好的方法，特别
 
 Ruby在跨平台开发方面很强大，因此在Linux上使用Ruby进行开发和在Windows上使用RubyInstaller进行生产都很容易，反之亦然。
 
-
 [**用于Linux的Windows子系统**](https://docs.microsoft.com/en-us/windows/wsl/about)在Windows上提供Linux环境。
 
 大多数Linux可用的开发工具都可以直接在WSL中使用。它非常适合使用Rails进行web开发，并提供网络和文件系统访问，但是对硬件设备的访问以及与本地Windows软件的互操作性都非常有限。
@@ -33,7 +31,6 @@ Ruby在跨平台开发方面很强大，因此在Linux上使用Ruby进行开发�
 Ruby可以作为一个软件包从选定的Linux发行版(通常是Ubuntu)或通过[rbenv](https://gitee.com/RubyKids/rbenv-cn)安装或者类似的Ruby版本管理器。
 
 请注意: WSL不适合生产使用。
-
 
 [**Cygwin**](https://www.cygwin.com/)是RubyInstaller的另一个替代品。
 

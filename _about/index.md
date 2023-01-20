@@ -11,7 +11,6 @@ order: 10
 
 <br>
 
-
 ## 关于 RubyInstaller
 
 RubyInstaller项目提供了一个独立的Windows的安装程序，其中包括一个Ruby语言执行环境和一组所需RubyGems和扩展的基线，并与MSYS2安装集成。
