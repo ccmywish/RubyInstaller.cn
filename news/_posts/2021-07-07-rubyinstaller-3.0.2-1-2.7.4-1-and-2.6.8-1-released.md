@@ -14,7 +14,7 @@ RubyInstaller 3.0.2-1, 2.7.4-1和2.6.8-1发布了。这些是维护版本，修�
 增加了`racc`, `rbs`, `typeprof`可执行文件到`/bin`目录。查阅 [#231](https://github.com/oneclick/rubyinstaller2/issues/231)
 
 
-查看[Ruby 3.0.2发布说明](https://www.ruby-lang.org/en/news/2021/07/07/ruby-3-0-2-released/), [Ruby 2.7.4发布说明](https://www.ruby-lang.org/en/news/2021/07/07/ruby-2-7-4-released/) 和 [Ruby 2.6.8发布说明](https://www.ruby-lang.org/en/news/2021/07/07/ruby-2-6-8-released/)获得详情。
+查看[Ruby 3.0.2发布说明](https://www.ruby-lang.org/en/news/2021/07/07/ruby-3-0-2-released/), [Ruby 2.7.4发布说明](https://www.ruby-lang.org/en/news/2021/07/07/ruby-2-7-4-released/)和[Ruby 2.6.8发布说明](https://www.ruby-lang.org/en/news/2021/07/07/ruby-2-6-8-released/)获得详情。
 
 请注意，一些Gem在Windows上与Ruby 3.0并不兼容，这种情况下，你可能需要依然使用2.7直到3.0被很好的支持。
 
