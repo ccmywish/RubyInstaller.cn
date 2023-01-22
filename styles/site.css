@@ -172,11 +172,11 @@ div#right_content_sub ul{
 
 #ruby-in-intro {
         color: #9283f0;
-        font-size: 36px;
+        font-size: 44px;
 }
 
 #best-way-in-intro {
-        font-size: 36px;
+        font-size: 44px;
         text-decoration-style: wavy;
         text-decoration-color: #eab308!important;
         text-decoration-line: underline!important;
@@ -284,9 +284,10 @@ div#intro-container {
 
 div#intro-container h1 {
         font-family: Arial, sans-serif;
-        font-size: 37px;
+        /* TODO: 这里应该把字体大小设置为变量 */
+        font-size: 44px;
         font-weight: bold;
-        margin: 0px 0 12px 0px;
+        margin: 0px 0 20px 0px;
         text-shadow: #ffffff 0px 1px 0px;
 }
 
@@ -294,18 +295,22 @@ div#intro-container a {
         text-decoration: none;
 }
 
-div#intro {
-        margin: 45px auto 35px auto;
+/* 第一段介绍文字 */
+#intro-p1 {
+        font-size: 16px;
+        margin: 22px 0px 35px 0px;
+}
+/* 第二段介绍文字 */
+#intro-p2 {
+        font-size: 17px;
+        margin: 35px 0px 20px 0px;
 }
 
 div#intro p {
-        font-size: 17px;
-        margin: 0 0 15px 0px;
         text-shadow: #ffffff 0px 1px 0px;
 
         color: rgb(115 115 115);
-        width: 400px;
-        margin-bottom: 28px;
+        width: 570px;
 }
 
 div#intro h1 {
