@@ -43,7 +43,6 @@ p a {
         font-size: 15px;
 }
 
-
 code {
   color: #000000;
   font-size: 14px;
@@ -72,7 +71,7 @@ pre.highlight {
         vertical-align: middle;
         border-radius: 5px;
         box-shadow: inset 0 1px 10px rgb(0 0 0 / 30%), 0 1px 0 rgb(255 255 255 / 10%), 0 -1px 0 rgb(0 0 0 / 50%);
-} 
+}
 
 h2 {
         font-family: "Microsoft YaHei", Arial, sans-serif;
@@ -129,24 +128,24 @@ div#right_content_sub h2 {
 /* Layout ------------------------------------------------------------------ */
 
 #page {
-        background: #ffffff url(../assets/bg.png) repeat-x top left;
+        /* background: #ffffff url(../assets/bg.png) repeat-x top left; */
 }
 
 /* 取消顶部蓝色栏
 #page-sub {
         background: #ffffff url(../assets/bg_sub.png) repeat-x top left;
-} 
+}
 */
 
 div#header {
-        background-color: #cc342d;
-        /* 与Jekyll doc的header宽度保持一致，原为85 */
-        height: 80px;
+        background-color: #f8f0d6;
+        /* Jekyll doc的header为80，但是我们想设置更低一点。该值原为85 */
+        height: 65px;
 }
 
 div#left_content {
         padding-bottom: 20px;
-        padding-top: 32px;
+        padding-top: 20px;
 }
 
 div#left_content_sub {
@@ -159,7 +158,7 @@ div#left_content_sub {
 
 div#right_content {
         padding-bottom: 20px;
-        padding-top: 32px;
+        padding-top: 20px;
 }
 
 div#right_content_sub {
@@ -270,29 +269,55 @@ ul#navbar li:hover::after{
         font-size: 20px;
 }
 
-div#graphic {
-        height: 263px;
-        width: 1150px;
+div#intro-container {
+        /* height: 263px; */
+        /* width: 1150px; */
+
+        /*
+        background-image: url(../assets/bg.png);
+        background-repeat: round;
+        background-size: 100px;
+        */
+
+        background-image: linear-gradient(to bottom right, #f6f0d1, #f5f5f5);;
 }
-div#graphic_sub {
-        height:84px;
-        width: 1150px;
-}
-div#graphic h1, div#graphic_sub h1 {
+
+div#intro-container h1 {
         font-family: Arial, sans-serif;
-        font-size: 34px;
+        font-size: 37px;
         font-weight: bold;
-        margin: 20px 0 10px 0px;
+        margin: 0px 0 12px 0px;
         text-shadow: #ffffff 0px 1px 0px;
 }
-div#graphic p {
+
+div#intro-container a {
+        text-decoration: none;
+}
+
+div#intro {
+        margin: 45px auto 35px auto;
+}
+
+div#intro p {
         font-size: 17px;
         margin: 0 0 15px 0px;
         text-shadow: #ffffff 0px 1px 0px;
+
+        color: rgb(115 115 115);
+        width: 400px;
+        margin-bottom: 28px;
 }
-div#graphic a {
-        text-decoration: none;
+
+div#intro h1 {
+        color: #404040;
 }
+
+/* 首页代码黑框调整 */
+figure {
+        width: 300px;
+        border-radius: 8px;
+}
+
 img#gembox {
         margin-left: 35px;
 }
@@ -522,9 +547,9 @@ font-size: 27px;
 }
 
 /* Downloads */
-#downloads #main-content h2 { 
-        border-bottom:1px solid #CCC; 
-        margin-bottom:20px; 
+#downloads #main-content h2 {
+        border-bottom:1px solid #CCC;
+        margin-bottom:20px;
 }
 
 #downloads #main-content {
@@ -537,7 +562,7 @@ a#archive { float:right; }
 a#archive:hover { text-decoration:none; }
 a#archive:after { content:"\BB"; }
 
-li.ridk_exe, li.rubyinstaller_exe { 
+li.ridk_exe, li.rubyinstaller_exe {
         /* list-style-image:url("../assets/exe_16x16.png");  */
         /* list-style-image:url("../assets/material-icon-theme-ruby.svg"); */
         /* 取消li的小图标 */
@@ -548,7 +573,7 @@ li.ridk_exe, li.rubyinstaller_exe {
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size: 20px;
-        list-style-position:inside; 
+        list-style-position:inside;
 }
 
 li.rubyinstaller7z, li.rubychm7z { list-style-image:url("../assets/sevenz_16x16.png"); list-style-position:inside; }
