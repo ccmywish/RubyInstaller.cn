@@ -205,34 +205,38 @@ ul#navbar li a, ul#navbar li span {
                 4. display: inline-block 等等才能显式正确
                 不加，或者使用inline等显式不正确
         */
+        /* font-size: 15px; */
         display:   block;
-        transform: translateY(82%);
-        color:   #ffffff;
+        transform: translateY(95%);
+        color:     #404040;       /* 导航栏链接颜色 */
         padding:   0 10px 0 10px;
 }
 
-/* TODO: 设置active后的状态，要么像Jekyll一样，整个词背景变化，或者加下划线 */
 ul#navbar li#active a {
         /* text-decoration: underline; */
         /*  border-bottom:   3px solid white; */
 
-        /* color: #ffffff; */
+        /* 不需要加下滑线了 */
+        color: rgb(234 179 8);
+
         /* background:url("../assets/menu_active_left.png") no-repeat left center; */
 }
 
-
-ul#navbar li a:hover{
+/* 整个li元素被hover时，a元素的样式。而不是之前的的a元素被hover时 */
+ul#navbar li:hover a{
         /* 默认会有一个下划线，所以这里强制取消 */
-        text-decoration: none; 
-} 
+        text-decoration: none;
+        color: rgb(234 179 8);
+}
 
-ul#navbar li a:hover::after{
-        content: ""; /* This is necessary for the pseudo element to work. */ 
+ul#navbar li:hover::after{
+        content: ""; /* This is necessary for the pseudo element to work. */
         display: block; /* This will put the pseudo element on its own line. */
         margin: 0 auto; /* This will center the border. */
+        /* 下划线的宽度 */
         width: 100%; /* Change this to whatever width you want. */
-        padding-top: 0.5px; /* This creates some space between the element and the border. */
-        border-bottom: 3px solid white; /* This creates the border. Replace black with whatever color you want. */
+        padding-top: 36px; /* This creates some space between the element and the border. */
+        border-bottom: 5.5px solid rgb(234 179 8); /* This creates the border. Replace black with whatever color you want. */
 }
 
 
