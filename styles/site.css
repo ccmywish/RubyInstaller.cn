@@ -286,12 +286,12 @@ div#download_btn a, div#download_btn a:link, div#download_btn a:visited {
         display: block;
         width: 229px;
         height: 85px;
-        background:url("../assets/download_btn.gif") repeat-x 0 0;
+        background:url("../assets/download_btn.png") repeat-x 0 0;
         cursor: pointer;
 }
 div#download_btn a:hover {
         color: #fff;
-        background:url("../assets/download_btn.gif") repeat-x 0 -85px;
+        background:url("../assets/download_btn.png") repeat-x 0 -85px;
 }
 
 div#download_btn a:active {
