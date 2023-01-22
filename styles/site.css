@@ -130,19 +130,53 @@ div#left_content {
         padding-top: 20px;
 }
 
-div#left_content_sub {
-        padding-top: 32px;
-        padding-bottom: 20px;
-        background: #ffffff url(../assets/bg_subnav.png) no-repeat top right;
-        height: 390px;
-        overflow-y: auto;
-}
-
 div#right_content {
         padding-bottom: 20px;
         padding-top: 20px;
 }
 
+
+/* 新闻/关于的左边导航栏 */
+div#left_content_sub {
+        /* 这个地方如果用padding-top 会导致导航栏上面多一点内容，用margin-top则不会
+           另外，这个值是和右边文章栏的padding-top值一样的
+         */
+        margin-top: 32px;
+        padding-bottom: 20px;
+        background: #f8f0d6;
+        height: 390px;
+        width:  220px;
+        /*
+        visible: 溢出的内容直接显式出来
+        auto:   如果有溢出的内容，则自动显式滚动栏，否则不显示滚动栏
+        scroll: 强制显示滚动栏
+        */
+        overflow-y: scroll;
+        overflow-x: hidden;
+
+        /* 非常无语，scrollbar-color, scrollbar-width 等都不支持 */
+
+        border: 2px solid #eab308;
+        border-radius: 8px;
+}
+
+/*
+Ref: https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar
+Edge控制scrollbar
+*/
+div#left_content_sub::-webkit-scrollbar {
+        width: 5px;
+        height: 3px;
+        background-color: #f8f0d6; /* or add it to the track */
+}
+/* 这个就是scrollbar我们看到的可以上下滑动的handle */
+div#left_content_sub::-webkit-scrollbar-thumb {
+        background: #eab308;
+}
+
+
+
+/* 右边文章栏 */
 div#right_content_sub {
         padding: 32px 0 20px 40px;
 }
@@ -435,6 +469,7 @@ div#addon_btn a:active {
         margin-top: 1px;
 }
 
+/* 新闻/关于页面的侧边导航栏 */
 ul#subnavbar {
         list-style: none;
         font-size: 16px;
