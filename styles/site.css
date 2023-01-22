@@ -156,7 +156,7 @@ div#left_content_sub {
 
         /* 非常无语，scrollbar-color, scrollbar-width 等都不支持 */
 
-        border: 2px solid #eab308;
+        border: 2.8px solid #eab308;
         border-radius: 8px;
 }
 
@@ -479,12 +479,17 @@ ul#subnavbar {
 }
 ul#subnavbar li {
         height: 35px;
-        padding-left: 20px;
+        padding-left: 30px;
         background:url(../assets/line_submenu.png) bottom right no-repeat;
         line-height: 2.0;
 }
+
+ul#subnavbar li:hover {
+        cursor: pointer;
+}
+
 ul#subnavbar li.current {
-        background-color: #ffffff;
+        background-color: #ebd79c;
 }
 ul#subnavbar a {
         background:url("../assets/bullet.png") no-repeat 0 2px;
