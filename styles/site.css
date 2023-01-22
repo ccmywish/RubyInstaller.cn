@@ -43,9 +43,14 @@ p a {
         font-size: 15px;
 }
 
+/* 首页代码区域 */
+pre code span{
+        font-size: 15px;
+}
+
 code {
   color: #000000;
-  font-size: 14px;
+  font-size: 12px;
   padding: 5px;
 
   /* background-color: #EFF1F3; */
@@ -319,13 +324,15 @@ div#intro h1 {
 
 /* 首页代码黑框调整 */
 figure {
-        width: 300px;
+        margin: 0;
+        width: 330px;
         border-radius: 8px;
 }
 
 img#gembox {
         margin-left: 35px;
 }
+
 div#download_btn span {
         font-size: 30px;
         font-weight:bold;
@@ -333,6 +340,10 @@ div#download_btn span {
         color: #fff;
 }
 div#download_btn a, div#download_btn a:link, div#download_btn a:visited {
+        /*
+        其实下载按钮居中可能还没有放到旁边好看，所以注释掉
+        margin-left: 260px;
+        */
         float: left;
         text-align: center;
         text-decoration: none;
