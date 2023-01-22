@@ -596,23 +596,6 @@ text-transform: none;
 margin-bottom: 4px;
 }
 
-
-
-div#contribute{
-        background:url("../assets/green_plus.png") no-repeat 0px 7px;
-}
-div#mailing{
-        background:url("../assets/grey_letters.png") no-repeat 0px 7px;
-}
-div#questions{
-        background:url("../assets/green_question.png") no-repeat 0px 7px;
-}
-
-
-div#download{
-        background: url("../assets/green_arrow.png") no-repeat 0px 7px;
-}
-
 div#footer {
         border-top: 1px solid #ccc;
         padding-top: 5px;
