@@ -10,11 +10,22 @@
 
  .highlight .c { color: #999988; font-style: italic; }
  .highlight .err { color: #a61717; background-color: #e3d2d2; }
+
+ /* 关键字，更换颜色
  .highlight .k { font-weight: bold; }
+ */
+ .highlight .k { color: #ff7b72; font-weight: bold; }
+
  .highlight .o { font-weight: bold; }
  .highlight .cm { color: #999988; font-style: italic; }
  .highlight .cp { color: #999999; font-weight: bold; }
+
+ /*
+ 注释，更换颜色，取消斜体
  .highlight .c1 { color: #999988; font-style: italic; }
+ */
+ .highlight .c1 { color: #8b949e;}
+
  .highlight .cs { color: #999999; font-weight: bold; font-style: italic; }
  .highlight .gd { color: #000000; background-color: #ffdddd; }
  .highlight .gd .x { color: #000000; background-color: #ffaaaa; }
@@ -51,17 +62,28 @@
   */
   .highlight .nb { color: #79c0ff; }
 
- .highlight .nc { color: #445588; font-weight: bold; }
- .highlight .no { color: teal; }
+  /*
+  类定义名，更换颜色
+  .highlight .nc { color: #445588; font-weight: bold; }
+  */
+  .highlight .nc { color: #ffa657; font-weight: bold; }
+
+  /*
+  类调用，更换颜色
+  .highlight .no { color: teal; }
+  */
+  .highlight .no { color: #79c0ff; font-weight: bold; }
+
+
  .highlight .ni { color: purple; }
  .highlight .ne { color: #990000; font-weight: bold; }
 
 
  /*
- 方法，更换颜色
+ 方法调用和定义，更换颜色，取消加粗
  .highlight .nf { color: #990000; font-weight: bold; }
   */
- .highlight .nf { color: #afa8ff; font-weight: bold; }
+ .highlight .nf { color: #afa8ff;}
 
  .highlight .nn { color: #555555; }
  .highlight .nt { color: navy; }
