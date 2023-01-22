@@ -170,18 +170,37 @@ div#right_content_sub ul{
         font-size: large;
 }
 
+
+#ruby-in-intro {
+        color: #9283f0;
+        font-size: 36px;
+}
+
+#best-way-in-intro {
+        font-size: 36px;
+        text-decoration-style: wavy;
+        text-decoration-color: #eab308!important;
+        text-decoration-line: underline!important;
+        /* 下划线偏移量 */
+        text-underline-offset: 10px;
+}
+
+
+
 /* header的链接导航 */
 ul#navbar {
-        width:  325px;
+        width:  400px;
         /* 设置为与header一致 */
         height: inherit;
 
         list-style: none;
         /* 导航栏链接位置 */
         margin: auto 56px;
-        font: bold 18px/1.5 Arial, Helvetica, sans-serif;
+        /* 导航栏链接字体  */
+        font: bold 16px/1.5 Arial, Helvetica, sans-serif;
 }
 ul#navbar li {
+        margin: 0 6px;
         list-style: none;
         float:left;
         /*
