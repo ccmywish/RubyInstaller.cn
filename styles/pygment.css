@@ -1,13 +1,23 @@
-/*
- * GitHub style for Pygments syntax highlighter, for use with Jekyll
- * Courtesy of GitHub.com
- *
- * ***************************************
- *
- * 此文件拷贝自: https://github.com/ruby/www.ruby-lang.org/blob/master/stylesheets/pygments.css
- * ccmywish: 部分颜色被我重新调整，以与RubyInstaller.cn的代码配色主题相适应
- */
-
+/* --------------------------------------------------------------
+* File          : pygment.css
+* Authors       : ccmywish <ccmywish@qq.com>
+* Created on    : <2023-01-22>
+* Last modified : <2023-01-23>
+*
+* pygment:
+*
+*   此文件拷贝自: https://github.com/ruby/www.ruby-lang.org/blob/master/stylesheets/pygments.css
+*   部分颜色被我重新调整，以与RubyInstaller.cn的代码配色主题相适应
+*
+*   GitHub style for Pygments syntax highlighter, for use with Jekyll
+*   Courtesy of GitHub.com
+*
+* ----------
+* Changelog:
+*
+* ~> v0.1.0
+* <2023-01-22> Create file
+* -------------------------------------------------------------*/
 
  /* 注释，取消斜体
  .highlight .c { color: #999988; font-style: italic; }
