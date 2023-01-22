@@ -21,6 +21,6 @@ RubyInstaller 2.7.2-1, 2.6.6-2和2.5.8-2发布了! 这些是维护版本(主要�
 # In PowerShell or CMD
 ridk exec sh -c "sed -e '/repo.msys2.org/ s/Serv/#Serv/' -i /etc/pacman.d/mirrorlist.*"
 ridk exec sh -c "cat /etc/pacman.d/mirrorlist.*"
-{% highlight PowerShell %}
+{% endhighlight %}
 
 所有的安装程序都可以在[下载页面]({{ "/downloads/" | relative_url }})找到!

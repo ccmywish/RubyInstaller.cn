@@ -43,41 +43,6 @@ p a {
         font-size: 15px;
 }
 
-/* 首页代码区域 */
-pre code span{
-        font-size: 15px;
-}
-
-code {
-  color: #000000;
-  font-size: 12px;
-  padding: 5px;
-
-  /* background-color: #EFF1F3; */
-  /* 采用Jekyll doc 配色 */
-  color: #fff;
-  background-color: #272727;
-  border-radius: 5px;
-  margin: 0 2px;
-}
-
-pre{
-color: #555555;
-padding: 10px;
-border: 1px solid #dddddd;
-}
-
-/* From Jekyll doc */
-pre.highlight {
-        background-color: #272727;
-        color: #fff;
-        max-width: 100%;
-        overflow-x: auto;
-        vertical-align: middle;
-        border-radius: 5px;
-        box-shadow: inset 0 1px 10px rgb(0 0 0 / 30%), 0 1px 0 rgb(255 255 255 / 10%), 0 -1px 0 rgb(0 0 0 / 50%);
-}
-
 h2 {
         font-family: "Microsoft YaHei", Arial, sans-serif;
         font-size: 25px;
@@ -130,7 +95,19 @@ div#right_content_sub h2 {
         margin: 0 0 20px 0;
         border-bottom: 1px solid #cccccc;
 }
-/* Layout ------------------------------------------------------------------ */
+
+
+
+
+/*******************************************************************************
+* 整体布局layout
+*
+* (1) header，即导航栏navbar
+* (2) banner, intro-container，即介绍栏
+* (3) left_content  左侧文章概要
+* (4) right_content 右侧其他项目介绍
+*
+*******************************************************************************/
 
 #page {
         /* background: #ffffff url(../assets/bg.png) repeat-x top left; */
@@ -175,21 +152,59 @@ div#right_content_sub ul{
 }
 
 
-#ruby-in-intro {
-        color: #9283f0;
-        font-size: 44px;
+
+/*******************************************************************************
+* 代码区域以及代码颜色
+*
+*******************************************************************************/
+
+/* 用 `` 包裹住的往往都是在一个文字段落里中出现。不要让这个样式影响到整个代码块的样式 */
+p code{
+        /* 采用Jekyll doc 配色：白字黑底 */
+        color: #fff;
+        background-color: #272727;
+
+        font-size: 12px;
+        padding: 5px;
+        border-radius: 5px;
+        margin: 0 2px;
 }
 
-#best-way-in-intro {
-        font-size: 44px;
-        text-decoration-style: wavy;
-        text-decoration-color: #eab308!important;
-        text-decoration-line: underline!important;
-        /* 下划线偏移量 */
-        text-underline-offset: 10px;
+/* 首页代码区域 */
+pre code span{
+        font-size: 15px;
+}
+
+/* 文章内代码块 */
+.post-content figure {
+        margin: 0;
+        width: 850px;
+        border-radius: 8px;
+}
+
+pre{
+        color: #555555;
+        padding: 10px;
+        border: 1px solid #dddddd;
+}
+
+/* From Jekyll doc */
+pre.highlight {
+        background-color: #272727;
+        color: #fff;
+        max-width: 100%;
+        overflow-x: auto;
+        vertical-align: middle;
+        border-radius: 5px;
+        box-shadow: inset 0 1px 10px rgb(0 0 0 / 30%), 0 1px 0 rgb(255 255 255 / 10%), 0 -1px 0 rgb(0 0 0 / 50%);
 }
 
 
+
+/*******************************************************************************
+* 导航栏navbar部分，也就是 _includes/header.html
+*
+*******************************************************************************/
 
 /* header的链接导航 */
 ul#navbar {
@@ -274,6 +289,19 @@ ul#navbar li:hover::after{
         font-size: 20px;
 }
 
+
+/*******************************************************************************
+* introduction 部分，也就是banner.html
+*
+* 分为左右两侧，左侧是文字介绍，右侧是代码示例
+* 左侧:
+*   (1) intro-p1:     介绍Ruby
+*   (2) h1:           大标题
+*   (3) intro-p2:     介绍RubyInstaller
+*   (4) download_btn: 下载按钮
+*
+*******************************************************************************/
+
 div#intro-container {
         /* height: 263px; */
         /* width: 1150px; */
@@ -322,16 +350,21 @@ div#intro h1 {
         color: #404040;
 }
 
-/* 首页代码黑框调整 */
-figure {
-        margin: 0;
-        width: 330px;
-        border-radius: 8px;
+/* 标题中的其他两个元素 */
+#ruby-in-intro {
+        color: #9283f0;
+        font-size: 44px;
 }
 
-img#gembox {
-        margin-left: 35px;
+#best-way-in-intro {
+        font-size: 44px;
+        text-decoration-style: wavy;
+        text-decoration-color: #eab308!important;
+        text-decoration-line: underline!important;
+        /* 下划线偏移量 */
+        text-underline-offset: 10px;
 }
+
 
 div#download_btn span {
         font-size: 30px;
@@ -361,6 +394,19 @@ div#download_btn a:hover {
 div#download_btn a:active {
         margin-top: 1px;
 }
+
+/* 首页代码黑框大小调整，前置了一个intro-code-example类，就是为了防止干扰到posts里的figure */
+.intro-code-example figure {
+        margin: 0;
+        width: 330px;
+        border-radius: 8px;
+}
+
+
+img#gembox {
+        margin-left: 35px;
+}
+
 
 div#addon_btn span {
         font-size: 30px;

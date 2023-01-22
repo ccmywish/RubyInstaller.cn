@@ -8,15 +8,26 @@
  * ccmywish: 部分颜色被我重新调整，以与RubyInstaller.cn的代码配色主题相适应
  */
 
+
+ /* 注释，取消斜体
  .highlight .c { color: #999988; font-style: italic; }
+ */
+ .highlight .c { color: #999988; }
+
  .highlight .err { color: #a61717; background-color: #e3d2d2; }
 
- /* 关键字，更换颜色
+ /*
+ 关键字，更换颜色
  .highlight .k { font-weight: bold; }
  */
  .highlight .k { color: #ff7b72; font-weight: bold; }
 
+ /*
+ 运算符，更换颜色
  .highlight .o { font-weight: bold; }
+ */
+ .highlight .o { color: #ff7b72; font-weight: bold; }
+
  .highlight .cm { color: #999988; font-style: italic; }
  .highlight .cp { color: #999999; font-weight: bold; }
 
