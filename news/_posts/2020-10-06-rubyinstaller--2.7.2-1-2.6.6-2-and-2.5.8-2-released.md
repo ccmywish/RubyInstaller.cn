@@ -17,10 +17,10 @@ RubyInstaller 2.7.2-1, 2.6.6-2和2.5.8-2发布了! 这些是维护版本(主要�
 
 不幸的是当前主要的MSYS2包服务器[https://repo.msys2.org](https://repo.msys2.org)处于宕机中。其他可选的hosts会被`pacman`自动选中，但是这个过程会等待很久。为了避免这个延迟，你也许你可以将host注释掉(下方的第一个命令)，并查看剩余的hosts(下方的第二个命令)。
 
-```
+{% highlight PowerShell %}
 # In PowerShell or CMD
 ridk exec sh -c "sed -e '/repo.msys2.org/ s/Serv/#Serv/' -i /etc/pacman.d/mirrorlist.*"
 ridk exec sh -c "cat /etc/pacman.d/mirrorlist.*"
-```
+{% highlight PowerShell %}
 
 所有的安装程序都可以在[下载页面]({{ "/downloads/" | relative_url }})找到!
