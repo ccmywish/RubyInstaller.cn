@@ -1,25 +1,28 @@
-<div id="intro-container" class="container clear">
-  <div id="intro" class="span-20">
-    <h1>Windows上安装Ruby的最佳方式</h1>
+<div id="intro-container">
 
-    <p>完整独立的Windows安装包，包含Ruby解释器、MSYS2、文档等，无需安装WSL等虚拟机</p>
+  <div class="container clear">
+    <div id="intro" class="span-20">
+      <h1>Windows上安装Ruby的最佳方式</h1>
 
-    <div>
-      <div id="download_btn">
-        <a href="{{ "/downloads/" | relative_url }}">
-          <span>下载</span>
-        </a>
+      <p>完整独立的Windows安装包，包含Ruby解释器、MSYS2、文档等，无需安装WSL等虚拟机</p>
+
+      <div>
+        <div id="download_btn">
+          <a href="{{ " /downloads/" | relative_url }}">
+            <span>下载</span>
+          </a>
+        </div>
       </div>
     </div>
-  </div>
 
-  <div id="code" class="span-9 last">
-    {% include code.html %}
-  </div>
+    <div id="code" class="span-9 last">
+      {% include code.html %}
+    </div>
 
-  <!--删除Gembox图案
+    <!--删除Gembox图案
   <div class="span-9 last">
     <img id="gembox" src="{{ "/assets/gembox.png" | relative_url }}" width="310" height="263" alt="Box of gems pic">
   </div>
    -->
+  </div>
 </div>
