@@ -130,7 +130,7 @@ div#left_content_sub {
         auto:   如果有溢出的内容，则自动显式滚动栏，否则不显示滚动栏
         scroll: 强制显示滚动栏
         */
-        overflow-y: scroll;
+        overflow-y: auto;
         overflow-x: hidden;
 
         /* 非常无语，scrollbar-color, scrollbar-width 等都不支持 */
