@@ -96,9 +96,37 @@
   */
  .highlight .nf { color: #afa8ff;}
 
- .highlight .nn { color: #555555; }
+ /*
+ 命令行选项 -C等，更换颜色
  .highlight .nt { color: navy; }
+ */
+  .highlight .nt { color: #41a5ee; }
+
+ /*
+ 命令行子命令，注意，这个nx在原本的pygment.css中压根没有，是我现在添加的
+ */
+ .highlight .nx { color: white; }
+
+ /*
+ $env:RBENV_ROOT 的 'env'，应该是namespace吧，更换颜色
+ .highlight .nn { color: #555555; }
+ */
+ .highlight .nn { color: #98c379; }
+
+ /*
+ $env:RBENV_ROOT 的 'RBENV_ROOT'，应该是namespace下的variable吧，更换颜色
  .highlight .nv { color: teal; }
+ */
+ .highlight .nv { color: #98c379; }
+
+ /*
+ $env:RBENV_ROOT 的 ':'冒号，注意，这个p在原本的pygment.css中压根没有，是我现在添加的
+ .highlight .p { color: teal; }
+ */
+ .highlight .p { color: #98c379; }
+
+
+
  .highlight .ow { font-weight: bold; }
  .highlight .w { color: #bbbbbb; }
  .highlight .mf { color: #009999; }
