@@ -3,7 +3,7 @@ layout: page
 title: ""
 ---
 <!-- 侧边栏 -->
-<div class="span-5">
+<div class="span-6">
   <div id="left_content_sub">
     <ul id="subnavbar">
       {% for post in site.posts %}
@@ -43,7 +43,7 @@ title: ""
             {% comment %} 参考https://jekyllrb.com/docs/liquid/filters/ {% endcomment %}
             由 {{ page.authors | array_to_sentence_string: "与" }}
           {% else %}
-            由 <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span> 
+            由 <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
           {% endif %} 发布于
 
           <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
