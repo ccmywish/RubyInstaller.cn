@@ -114,6 +114,12 @@
  .highlight .bp { color: #999999; }
  .highlight .vc { color: teal; }
  .highlight .vg { color: teal; }
+
+ /*
+ 实例变量，更换颜色
  .highlight .vi { color: teal; }
+ */
+  .highlight .vi { color: #e9fdac; }
+
  .highlight .il { color: #009999; }
  .highlight .gc { color: #999; background-color: #EAF2F5; }
