@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-24T01:09:57+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">RubyInstaller for Windows - 国内镜像</title><subtitle>Windows上安装Ruby的最简单方式
+完整独立的Windows安装包，包含Ruby解释器、MSYS2、文档等，无需安装WSL等虚拟机。
+</subtitle></feed>
