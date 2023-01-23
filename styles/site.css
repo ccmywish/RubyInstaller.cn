@@ -88,11 +88,13 @@ div#right_content_sub h2 {
 *
 *******************************************************************************/
 
+/*
+取消首页顶部的原有banner
 #page {
-        /* background: #ffffff url(../assets/bg.png) repeat-x top left; */
+        background: #ffffff url(../assets/bg.png) repeat-x top left;
 }
 
-/* 取消顶部蓝色栏
+取消首页顶部蓝色栏
 #page-sub {
         background: #ffffff url(../assets/bg_sub.png) repeat-x top left;
 }
@@ -186,7 +188,7 @@ p code{
         vertical-align: text-bottom;
 }
 
-/* 首页代码区域 */
+/* 代码块区域 */
 figure pre code span{
         font-size: 15px;
 }
@@ -440,16 +442,18 @@ ul#subnavbar li:hover {
 ul#subnavbar li.current {
         background-color: #ebd79c;
 }
+/* 当前选中的链接 */
+ul#subnavbar span {
+        background:url("../assets/bullet.png") no-repeat 0 -18px;
+        padding-left: 20px;
+}
+/* 当前未选中的链接 */
 ul#subnavbar a {
         background:url("../assets/bullet.png") no-repeat 0 2px;
         padding-left: 20px;
 }
 ul#subnavbar a:hover {
         background:url("../assets/bullet.png") no-repeat 0 -18px;
-}
-ul#subnavbar span {
-        background:url("../assets/bullet.png") no-repeat 0 -18px;
-        padding-left: 20px;
 }
 ul#breadcrumbs {
         list-style: none;
