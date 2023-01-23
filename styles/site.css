@@ -26,6 +26,11 @@
 * <2021-01-19> Forked from rubyinstaller.org-website
 * -------------------------------------------------------------*/
 
+/*******************************************************************************
+* HTML基本元素样式
+*
+*******************************************************************************/
+
 body {
         padding-top: 0px;
         padding-bottom: 0px;
@@ -94,25 +99,24 @@ background-color: #f1f1f1;}
 
 
 
-/* Headings ---------------------------------------------------------------- */
-div#main h2 {
-        margin: 0 0 10px 0;
-}
-div#right_content_sub h2 {
-        margin: 0 0 20px 0;
-        border-bottom: 1px solid #cccccc;
-}
-
-
-
-
 /*******************************************************************************
-* 整体布局layout
+* 首页布局layout
 *
-* (1) header，即导航栏navbar
-* (2) banner, intro-container，即介绍栏
-* (3) left_content  左侧文章概要
-* (4) right_content 右侧其他项目介绍
+* (1) header，页眉，即网站全局导航栏navbar
+* (2) intro-container，即介绍栏
+* (3) main
+*     (3.1) left_content  左侧文章概要
+*     (3.2) right_content 右侧其他项目介绍
+* (4) footer，页脚
+*
+*
+* 文章页layout
+*
+* (1) header，页眉，即网站全局导航栏navbar
+* (2)
+*     (2.1) left_content_sub  左侧文章导航栏
+*     (2.2) right_content_sub 右侧具体文章内容
+* (3) footer，页脚
 *
 *******************************************************************************/
 
@@ -127,6 +131,10 @@ div#right_content_sub h2 {
         background: #ffffff url(../assets/bg_sub.png) repeat-x top left;
 }
 */
+
+div#main h2 {
+        margin: 0 0 10px 0;
+}
 
 div#header {
         background-color: #f8f0d6;
@@ -190,6 +198,11 @@ div#left_content_sub::-webkit-scrollbar-thumb {
 /* 右边文章栏 */
 div#right_content_sub {
         padding: 32px 0 20px 40px;
+}
+
+div#right_content_sub h2 {
+        margin: 0 0 20px 0;
+        border-bottom: 1px solid #cccccc;
 }
 
 div#right_content_sub ul{
@@ -306,7 +319,7 @@ figure.highlight pre code span{
 
 
 /*******************************************************************************
-* 导航栏navbar部分，也就是 _includes/header.html
+* 网站全局导航栏navbar部分，也就是 _includes/header.html
 *
 *******************************************************************************/
 
@@ -332,10 +345,7 @@ ul#navbar li {
         */
         height: inherit;
 }
-/* 当前所在页面 */
-ul#navbar li#active {
-        /* background:url("../assets/menu_active.png") no-repeat bottom right; */
-}
+
 /* 导航栏链接元素 */
 ul#navbar li a, ul#navbar li span {
         /*
