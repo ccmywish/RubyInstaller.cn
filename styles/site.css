@@ -146,12 +146,14 @@ Ref: https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar
 Edge控制scrollbar
 */
 div#left_content_sub::-webkit-scrollbar {
-        width: 5px;
-        height: 3px;
+        border-radius: 8px; /* track的边框，保持与上面的这个导航栏边框一致 */
+        width:  8px; /* 滚动栏的宽度 */
+        height: 3px; /* 这个值在竖直的滚动栏中似乎完全没用 */
         background-color: #f8f0d6; /* or add it to the track */
 }
 /* 这个就是scrollbar我们看到的可以上下滑动的handle */
 div#left_content_sub::-webkit-scrollbar-thumb {
+        border-radius: 8px; /* handle的边框 */
         background: #eab308;
 }
 
