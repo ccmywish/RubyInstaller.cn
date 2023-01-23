@@ -2,7 +2,7 @@
 * File          : site.css
 * Authors       : ccmywish <ccmywish@qq.com>
 * Created on    : <2021-01-19>
-* Last modified : <2023-01-23>
+* Last modified : <2023-01-24>
 * Contributors  : Holger Arndt <github@kjarrigan.de>
 *                 Lars Kanis <lars@greiz-reinsdorf.de>
 *
@@ -110,6 +110,12 @@ p a {
         font-size: 15px;
 }
 
+/* markdown中的 > */
+blockquote {
+        margin:1.3em;
+        color:#666;
+        /* font-style:italic; */
+}
 
 
 thead th {
@@ -639,14 +645,21 @@ div#footer a.edit {
 * Download下载区域
 *
 *******************************************************************************/
+#download #download-content {
+        padding: 32px 0 20px 40px;
+        width: 94%;
+}
+
 #download #download-content h2 {
         font-size: 25px; /* 与 article h2 保持一致 */
         border-bottom:1px solid #CCC;
         margin-bottom:20px;
 }
 
-#download #download-content {
-        padding: 32px 0 20px 40px;
+#download #download-content h3 {
+        font-size: 18px; /* 与 article h3 保持一致 */
+        margin-top: 30px;
+        margin-bottom:20px;
 }
 
 #download #download-links li { line-height:2em; }
