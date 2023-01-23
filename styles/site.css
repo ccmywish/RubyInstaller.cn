@@ -38,19 +38,31 @@ h1, h2, h3, h4, h5, h6 {
         margin: 1.3em 0px 0.6em 0px;
 }
 
-h2 {
-        font-family: "Microsoft YaHei", Arial, sans-serif;
-        font-size: 25px;
+article h1 {
+        font-size: 32px;
+        margin: 0 0 14px 0;
+        border-bottom: 1px solid #cccccc;
 }
 
-h3 {
+article h2 {
+        font-family: "Microsoft YaHei", Arial, sans-serif;
+        font-size: 25px;
+        margin: 0 0 14px 0;
+        border-bottom: 1px solid #cccccc;
+}
+
+article h3 {
         text-transform: uppercase;
         font-size: 18px;
 }
 
-h4 {font-size:1.2em;font-weight: bold; }
+article h4 {font-size:1.2em;font-weight: bold; }
 
 
+#right_content h2 {
+        text-align: center;
+        font-size: 25.5px;
+}
 
 
 body {
@@ -212,10 +224,9 @@ div#right_content_sub {
         padding: 32px 0 20px 40px;
 }
 
-/* 文章区域的标题 */
+/* 文章区域 */
 div#right_content_sub h2 {
-        margin: 0 0 14px 0;
-        border-bottom: 1px solid #cccccc;
+
 }
 
 div#right_content_sub ul{

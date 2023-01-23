@@ -8,13 +8,6 @@
 layout: home
 title: RubyInstaller for Windows - 国内镜像
 ---
-
-<style>
-  h2 {
-    text-align: center;
-  }
-</style>
-
 ## 致谢
 
 感谢[上海交通大学软件源镜像服务](https://mirrors.sjtug.sjtu.edu.cn/)为本站提供所有下载缓存。
