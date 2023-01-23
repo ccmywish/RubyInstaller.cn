@@ -32,3 +32,5 @@ collections:
 
 feed:
   posts_limit: 20
+
+issues_link: https://gitee.com/RubyKids/RubyInstaller.cn/issues

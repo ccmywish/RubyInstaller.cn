@@ -18,7 +18,7 @@
 1. `news/_posts` 目录存放文章`
 2. `_data` 目录存放下载链接
 3. `_about` 目录存放关于页面
-4.  `download.md` 下载页面右边侧边栏的信息
+4. `download.md` 下载页面右边侧边栏的信息
 5. `_config.yml` Jekyll配置文件
 6. `_site` Jekyll生成的目录
 
