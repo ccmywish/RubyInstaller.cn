@@ -75,11 +75,11 @@ a:hover {
         text-decoration: none;
 }
 
+/* 文章的文字 */
 p, div.news_item p {
-        /* 全站字体大小 */
-        font-size: 16px;
-        margin-bottom: .75em;
-        line-height: 1.6em;
+        font-size: 16px;      /* 全站字体大小 */
+        margin-bottom: 16px;  /* 每段文字之间的距离，此值设置为与Github Readme一样 */
+        line-height: 1.55em;  /* 段落的高度，这个值一定要好好选择，因为中文行高一定要较大才能看清楚 */
 }
 
 p b {
