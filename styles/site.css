@@ -30,7 +30,6 @@
 * HTML基本元素样式
 *
 *******************************************************************************/
-
 body {
         padding-top: 0px;
         padding-bottom: 0px;
@@ -215,7 +214,6 @@ div#right_content_sub ul{
 * 代码区域以及代码颜色
 *
 *******************************************************************************/
-
 /* 用 `` 包裹住的往往都是在一个文字段落里中出现。不要让这个样式影响到整个代码块的样式 */
 p code{
         /* 采用Jekyll doc 配色：白字黑底 */
@@ -322,7 +320,6 @@ figure.highlight pre code span{
 * 网站全局导航栏navbar部分，也就是 _includes/header.html
 *
 *******************************************************************************/
-
 /* header的链接导航 */
 ul#navbar {
         width:  400px;
@@ -393,6 +390,7 @@ ul#navbar li:hover::after{
 
 
 
+/* TODO: 这个Cufon是干什么用的 */
 .cufon-active #navbar li a { /* for Cufon.replace('h1') */
         font-size: 20px;
         text-decoration: none;
@@ -403,6 +401,9 @@ ul#navbar li:hover::after{
         font-size: 20px;
 }
 
+.cufon-active h2 { /* for Cufon.replace('h1') */
+        font-size: 27px;
+}
 
 /*******************************************************************************
 * introduction 部分，也就是banner.html
@@ -415,7 +416,6 @@ ul#navbar li:hover::after{
 *   (4) download_btn: 下载按钮
 *
 *******************************************************************************/
-
 div#intro-container {
         /* height: 263px; */
         /* width: 1150px; */
@@ -479,7 +479,7 @@ div#intro h1 {
         text-underline-offset: 10px;
 }
 
-
+/* 首页中的下载按钮 */
 div#download_btn span {
         font-size: 30px;
         font-weight:bold;
@@ -509,7 +509,11 @@ div#download_btn a:active {
         margin-top: 1px;
 }
 
-/* 新闻/关于页面的侧边导航栏 */
+
+/*******************************************************************************
+* 新闻/关于页面的侧边导航栏
+*
+*******************************************************************************/
 ul#subnavbar {
         list-style: none;
         font-size: 16px;
@@ -545,6 +549,12 @@ ul#subnavbar a:hover {
         background:url("../assets/bullet.png") no-repeat 0 -18px;
 }
 
+
+
+/*******************************************************************************
+* TODO: 待分类
+*
+*******************************************************************************/
 div.news_item {
         padding: 0 20px 20px 0;
 }
@@ -572,6 +582,10 @@ div.news_item a:hover.more {
 }
 
 
+/*******************************************************************************
+* footer页脚部分
+*
+*******************************************************************************/
 div#footer {
         border-top: 1px solid #ccc;
         padding-top: 5px;
@@ -597,11 +611,15 @@ div#copyright {
         text-align: right;
 }
 
-.cufon-active h2 { /* for Cufon.replace('h1') */
-font-size: 27px;
+div#footer a.edit {
+        background:url("../assets/document-edit.png") no-repeat bottom left;
+        padding-left: 20px;
 }
 
-/* Downloads */
+/*******************************************************************************
+* Downloads下载区域
+*
+*******************************************************************************/
 #downloads #main-content h2 {
         border-bottom:1px solid #CCC;
         margin-bottom:20px;
@@ -687,10 +705,4 @@ input.js-copytextinput {
   border-bottom-right-radius: 0;
   min-height: 28px;
   border: 1px solid #d1d5da;
-}
-
-
-div#footer a.edit {
-        background:url("../assets/document-edit.png") no-repeat bottom left;
-        padding-left: 20px;
 }
