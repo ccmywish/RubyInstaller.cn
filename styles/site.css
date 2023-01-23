@@ -514,38 +514,38 @@ div#download_btn a:active {
 * 新闻/关于页面的侧边导航栏
 *
 *******************************************************************************/
-ul#subnavbar {
+ul#sidenavbar {
         list-style: none;
         font-size: 16px;
         margin:0;
         padding: 1px 0 0 0;
         background:url(../assets/line_submenu.png) top right no-repeat;
 }
-ul#subnavbar li {
+ul#sidenavbar li {
         height: 35px;
         padding-left: 30px;
         background:url(../assets/line_submenu.png) bottom right no-repeat;
         line-height: 2.0;
 }
 
-ul#subnavbar li:hover {
+ul#sidenavbar li:hover {
         cursor: pointer;
 }
 
-ul#subnavbar li.current {
+ul#sidenavbar li.current {
         background-color: #ebd79c;
 }
 /* 当前选中的链接 */
-ul#subnavbar span {
+ul#sidenavbar span {
         background:url("../assets/bullet.png") no-repeat 0 -18px;
         padding-left: 20px;
 }
 /* 当前未选中的链接 */
-ul#subnavbar a {
+ul#sidenavbar a {
         background:url("../assets/bullet.png") no-repeat 0 2px;
         padding-left: 20px;
 }
-ul#subnavbar a:hover {
+ul#sidenavbar a:hover {
         background:url("../assets/bullet.png") no-repeat 0 -18px;
 }
 
