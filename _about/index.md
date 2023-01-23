@@ -1,20 +1,18 @@
 ---
 layout: about
-title: 介绍
+title: RubyInstaller.cn
 permalink: /about/
 order: 10
 ---
 
 ## 关于 RubyInstaller.cn
 
-本站提供rubyinstaller.org中常见的下载链接镜像，供国内用户使用。
+本站由RubyChina社区成员开发维护，是对原网站**[rubyinstaller.org](https://rubyinstaller.org/)**的fork开发，除了大多数文章是原网站的翻译外，网站界面以及其他很多内容都为国内用户做了优化，比如下载页面中的下载链接均来自国内服务器，镜像提供方为**[上海交通大学软件源镜像服务](https://mirrors.sjtug.sjtu.edu.cn/)**。
 
-<br>
+## RubyInstaller.cn 贡献者
 
-## 关于 RubyInstaller
+* {% avatar ccmywish size=49 %} [ccmywish](https://gitee.com/ccmywish) 提出此站倡议，维护域名，进行本站主要开发工作
+* {% avatar skyzh size=49 %} [Alex Chi](https://github.com/skyzh)  为本站协调镜像服务的提供
+* {% avatar larskanis size=49 %} [Lars Kanis](https://github.com/larskanis) 上游主要维护者，为建站以及镜像服务提供了信息
 
-RubyInstaller项目提供了一个独立的Windows的安装程序，其中包括一个Ruby语言执行环境和一组所需RubyGems和扩展的基线，并与MSYS2安装集成。
-
-要**安装Ruby**，请在[下载页面]({{"/download"| relative_url}})选择您想要的版本，然后单击.exe链接(在版本名称下)下载安装程序,下载完成后双击该文件以运行安装程序。
-
-RubyInstaller目前仅适用于Windows平台。
+若您有新的想法，发现了存在的问题或可改善的地方(比如更好的UI)，或您想直接参与开发与日常维护，请您在[issues](https://gitee.com/RubyKids/RubyInstaller.cn/issues) 处反馈，并请阅读[CONTRIBUTING.md](https://gitee.com/RubyKids/RubyInstaller.cn/blob/main/CONTRIBUTING.md)文件.
