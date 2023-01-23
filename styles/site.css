@@ -124,7 +124,7 @@ background-color: #f1f1f1;}
 
 
 /*******************************************************************************
-* 首页布局layout
+* 首页布局(home) layout
 *
 * (1) header，页眉，即网站全局导航栏navbar
 * (2) intro-container，即介绍栏
@@ -134,12 +134,12 @@ background-color: #f1f1f1;}
 * (4) footer，页脚
 *
 *
-* 文章页layout
+* 文章页(page) layout
 *
 * (1) header，页眉，即网站全局导航栏navbar
 * (2)
-*     (2.1) left_content_sub  左侧文章导航栏
-*     (2.2) right_content_sub 右侧具体文章内容
+*     (2.1) page_left_content  左侧文章导航栏
+*     (2.2) page_right_content 右侧具体文章内容
 * (3) footer，页脚
 *
 *******************************************************************************/
@@ -178,7 +178,7 @@ div#home_right_content {
 
 
 /* 新闻/关于的左边导航栏 */
-div#left_content_sub {
+div#page_left_content {
         /* 这个地方如果用padding-top 会导致导航栏上面多一点内容，用margin-top则不会
            另外，这个值是和右边文章栏的padding-top值一样的
          */
@@ -205,31 +205,25 @@ div#left_content_sub {
 Ref: https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar
 Edge控制scrollbar
 */
-div#left_content_sub::-webkit-scrollbar {
+div#page_left_content::-webkit-scrollbar {
         border-radius: 8px; /* track的边框，保持与上面的这个导航栏边框一致 */
         width:  8px; /* 滚动栏的宽度 */
         height: 3px; /* 这个值在竖直的滚动栏中似乎完全没用 */
         background-color: #f8f0d6; /* or add it to the track */
 }
 /* 这个就是scrollbar我们看到的可以上下滑动的handle */
-div#left_content_sub::-webkit-scrollbar-thumb {
+div#page_left_content::-webkit-scrollbar-thumb {
         border-radius: 8px; /* handle的边框 */
         background: #eab308;
 }
 
 
-
 /* 右边文章区域 */
-div#right_content_sub {
+div#page_right_content {
         padding: 32px 0 20px 40px;
 }
 
-/* 文章区域 */
-div#right_content_sub h2 {
-
-}
-
-div#right_content_sub ul{
+div#page_right_content ul{
         font-size: large;
 }
 
