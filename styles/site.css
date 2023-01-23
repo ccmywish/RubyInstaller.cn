@@ -59,7 +59,7 @@ article h3 {
 article h4 {font-size:1.2em;font-weight: bold; }
 
 
-#right_content h2 {
+#home_right_content h2 {
         text-align: center;
         font-size: 25.5px;
 }
@@ -129,8 +129,8 @@ background-color: #f1f1f1;}
 * (1) header，页眉，即网站全局导航栏navbar
 * (2) intro-container，即介绍栏
 * (3) main
-*     (3.1) left_content  左侧文章概要
-*     (3.2) right_content 右侧其他项目介绍
+*     (3.1) home_left_content  左侧文章概要
+*     (3.2) home_right_content 右侧其他项目介绍
 * (4) footer，页脚
 *
 *
@@ -166,12 +166,12 @@ div#header {
         height: 65px;
 }
 
-div#left_content {
+div#home_left_content {
         padding-bottom: 20px;
         padding-top: 20px;
 }
 
-div#right_content {
+div#home_right_content {
         padding-bottom: 20px;
         padding-top: 20px;
 }
