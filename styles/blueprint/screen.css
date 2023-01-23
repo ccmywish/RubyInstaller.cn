@@ -73,9 +73,8 @@ caption {background:#eee;}
 .quiet {color:#666;}
 .loud {color:#000;}
 
-/* 与我们的代码高亮冲突，设置代码背景色 */
+/* 与我们的代码高亮冲突，把这个属性移动到site.css中去设置 */
 /* .highlight {background:#F6F8FA;} */
-.highlight { background-color: #272727; }
 
 .added {background:#060;color:#fff;}
 .removed {background:#900;color:#fff;}

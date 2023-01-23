@@ -190,34 +190,90 @@ p code{
         vertical-align: text-bottom;
 }
 
-/* 代码块区域 */
-figure pre code span{
+
+/* 所有代码块区域为: figure.highlight
+   (1) 首页intro的代码块
+   (2) 文章内的代码块
+
+   所有的figure我们都使用.highlight，以防止污染所有figure
+
+   但是，我们下面大部分使用的是<figure>下面的<pre>，而不是直接对<figure>操作
+*/
+
+
+/* 代码区域
+
+   figure下面的pre，正是我们加环境色的地方，如黑色的代码背景
+*/
+figure.highlight pre{
+        padding: 10px; /* 周围黑色区域大小 */
+        background-color: #272727;
+
+        border: 1px solid #dddddd;
+        border-radius: 8px;
+
+        /* 代码超越后，显示滚动栏 */
+        max-width: 100%;
+        overflow-x: auto;
+
+        /*
+        不想要这个box-shadow
+        box-shadow: inset 0 1px 10px rgb(0 0 0 / 30%), 0 1px 0 rgb(255 255 255 / 10%), 0 -1px 0 rgb(0 0 0 / 50%);
+        */
+}
+
+/* Ref: https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar
+
+   Edge控制scrollbar
+*/
+
+/* TODO:
+        Expected: 鼠标停留在这个区域时，滚动鼠标滚轮应该可以滑动这个小滚动条
+        Actual:   滚动鼠标滑轮滑的是整个页面
+*/
+figure.highlight pre::-webkit-scrollbar {
+        border-radius: 8px; /* track的边框，与上面的代码区域的边框应当保持一致 */
+        width:   3px; /* 这个值在水平的滚动栏中似乎完全没用 */
+        height: 11px; /* track的高度 */
+        background-color: #f8f0d6; /* or add it to the track */
+}
+/* 这个就是scrollbar我们看到的可以上下滑动的handle */
+figure.highlight pre::-webkit-scrollbar-thumb {
+        border-radius: 8px; /* handle的边框 */
+        background: #f47287;
+}
+
+
+/* 这个不能放在上面的pre里，必须像这样全部写道span才能定位出来，这也说明了父类的属性不能传递到子元素中 */
+figure.highlight pre code span{
         font-size: 15px;
 }
 
-/* 文章内代码块 */
-.post-content figure {
+/* 文章内代码区域 */
+.post-content figure.highlight {
+        /* 用户代理(浏览器)样式会把这个设置为40px，会使得整个代码区域前面像是有一个缩进 */
+        margin-left: 10px;
+}
+.post-content figure.highlight pre{
         margin: 0;
-        width: 850px;
-        border-radius: 8px;
+        /* 注意，这个宽度，是根据我们当前已有文章(rbenv for Windows)的最长命令来设定的，所以以后遇到更长的命令，可能需要依然调整这里。
+           主要的原因就是我们的代码不会自动换行！或者我们把该值确定下来，再也不修改，以后的代码自动的按需手动换行。
+           但是我们在最前面加了一个 overflow-x 后就可以有滚动栏了，这也是一种方法。此时，我们的宽度就可以随意更改了。
+        */
+        width: 780px;
 }
 
-pre{
-        color: #555555;
-        padding: 10px;
-        border: 1px solid #dddddd;
+/* 首页代码区域
+
+   前置了一个intro-code-example类，就是为了防止干扰到posts里的figure
+
+   注意，这里定义的不是<pre>，而是<figure>，没有特殊的原因，只是发现这样可以达到同样的效果
+*/
+.intro-code-example figure.highlight {
+        margin: 0;
+        width: 330px;
 }
 
-/* From Jekyll doc */
-pre.highlight {
-        background-color: #272727;
-        color: #fff;
-        max-width: 100%;
-        overflow-x: auto;
-        vertical-align: middle;
-        border-radius: 5px;
-        box-shadow: inset 0 1px 10px rgb(0 0 0 / 30%), 0 1px 0 rgb(255 255 255 / 10%), 0 -1px 0 rgb(0 0 0 / 50%);
-}
 
 
 
@@ -413,13 +469,6 @@ div#download_btn a:hover {
 
 div#download_btn a:active {
         margin-top: 1px;
-}
-
-/* 首页代码黑框大小调整，前置了一个intro-code-example类，就是为了防止干扰到posts里的figure */
-.intro-code-example figure {
-        margin: 0;
-        width: 330px;
-        border-radius: 8px;
 }
 
 /* 新闻/关于页面的侧边导航栏 */
