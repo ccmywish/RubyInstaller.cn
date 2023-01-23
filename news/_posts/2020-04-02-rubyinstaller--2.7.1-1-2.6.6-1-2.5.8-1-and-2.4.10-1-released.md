@@ -15,4 +15,4 @@ RubyInstaller 2.7.1-1, 2.6.6-1，2.5.8-1和2.4.10-1发布了! 这些是维护版
 
 请注意，RubyInstaller 2.4.10-1将会是Ruby 2.4系列的最后版本，这是因为Ruby 2.4和OpenSSL 1.0.x的支持都结束了。
 
-所有的安装程序都可以在[下载页面]({{ "/downloads/" | relative_url }})找到!
+所有的安装程序都可以在[下载页面]({{ "/download/" | relative_url }})找到!

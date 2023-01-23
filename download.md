@@ -1,7 +1,7 @@
 ---
-layout: downloads
+layout: download
 title: 下载
-permalink: /downloads/
+permalink: /download/
 ---
 
 ## 我应该下载哪个版本？

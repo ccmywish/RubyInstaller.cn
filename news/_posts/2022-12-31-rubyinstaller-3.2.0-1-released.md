@@ -23,4 +23,4 @@ RubyInstaller-3.2.0将`libssl`库更改为OpenSSL-3. 这对某些Ruby API有影�
 
 一个之前的RubyInstaller 3.1.x或2.7.x安装<b>不应当</b>被通过将RubyInstaller 3.2.x安装同一目录下直接更新。这是因为一些带有C语言扩展的Gem在Ruby 3.1和3.2之间并不兼容。最好像我们提议的，使用新的目录来存放3.2.x
 
-所有安装程序都放在了[下载区域]({{ "/downloads/" | relative_url }})!
+所有安装程序都放在了[下载区域]({{ "/download/" | relative_url }})!

@@ -617,19 +617,19 @@ div#footer a.edit {
 }
 
 /*******************************************************************************
-* Downloads下载区域
+* Download下载区域
 *
 *******************************************************************************/
-#downloads #main-content h2 {
+#download #download-content h2 {
         border-bottom:1px solid #CCC;
         margin-bottom:20px;
 }
 
-#downloads #main-content {
+#download #download-content {
         padding: 32px 0 20px 40px;
 }
 
-#downloads #download-links li { line-height:2em; }
+#download #download-links li { line-height:2em; }
 
 a#archive { float:right; }
 a#archive:hover { text-decoration:none; }

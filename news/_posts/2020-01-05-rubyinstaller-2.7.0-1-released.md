@@ -19,5 +19,5 @@ UTF-8编码将在环境变量`RUBYOPT`被设置为`-Eutf-8`时开启，因此这
 
 如果在Ruby 2.7上工作良好，`Reline`以及默认UTF-8这两个功能都将被向后移植到下一个RubyInstaller 2.4, 2.5和2.6系列的版本,所以请使用[issue tracker](https://github.com/oneclick/rubyinstaller2/issues) 来给予我们正面或负面的反馈!
 
-所有的安装程序都可以在[下载页面]({{ "/downloads/" | relative_url }})找到!
-All binaries are available in the [Download section]({{ "/downloads/" | relative_url }})!
+所有的安装程序都可以在[下载页面]({{ "/download/" | relative_url }})找到!
+All binaries are available in the [Download section]({{ "/download/" | relative_url }})!
