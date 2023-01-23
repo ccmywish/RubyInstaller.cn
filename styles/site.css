@@ -137,7 +137,7 @@ background-color: #f1f1f1;}
 * 文章页(page) layout
 *
 * (1) header，页眉，即网站全局导航栏navbar
-* (2)
+* (2) main
 *     (2.1) page_left_content  左侧文章导航栏
 *     (2.2) page_right_content 右侧具体文章内容
 * (3) footer，页脚
@@ -640,6 +640,7 @@ div#footer a.edit {
 *
 *******************************************************************************/
 #download #download-content h2 {
+        font-size: 25px; /* 与 article h2 保持一致 */
         border-bottom:1px solid #CCC;
         margin-bottom:20px;
 }
