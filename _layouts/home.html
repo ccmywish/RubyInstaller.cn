@@ -3,7 +3,7 @@ layout: default
 ---
 <div id="page">
   {% include header.html %}
-  {% include banner.html %}
+  {% include intro.html %}
   <div id="main" class="container clear">
     <div class="home">
       <div class="span-21">
@@ -17,15 +17,15 @@ layout: default
                 <span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
                 <span class="date">
                   {% if post.authors %}
-                    由 {% for author in post.authors %} 
-                        <!-- 
+                    由 {% for author in post.authors %}
+                        <!--
                           Reference: https://shopify.github.io/liquid/tags/iteration/
                           使用forloop object
                          -->
-                        {% if forloop.last %} 
+                        {% if forloop.last %}
                             {{ author }}
-                        {% else %} 
-                            {{ author }}, 
+                        {% else %}
+                            {{ author }},
                         {% endif %}
                       {% endfor %} 发布
                   {% else %}
