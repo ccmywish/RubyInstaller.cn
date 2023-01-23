@@ -1,3 +1,31 @@
+/* --------------------------------------------------------------
+* File          : site.css
+* Authors       : ccmywish <ccmywish@qq.com>
+* Created on    : <2021-01-19>
+* Last modified : <2023-01-23>
+* Contributors  : Holger Arndt <github@kjarrigan.de>
+*                 Lars Kanis <lars@greiz-reinsdorf.de>
+*
+* site:
+*
+*   本网站具体的各种样式设置
+*
+* ----------
+* Changelog:
+*
+* ~> v1.0.0
+* <2023-01-23> 完整的重构，尽管内部使用的不是新技术，但仍然使GUI相当现代化
+*
+* ~> v0.3.0
+* <2022-12-02> 大调整导航栏，下载页，段内<code>配色
+*
+* ~> v0.2.0
+* <2021-01-22> 第一次初始调整UI
+*
+* ~> v0.1.0
+* <2021-01-19> Forked from rubyinstaller.org-website
+* -------------------------------------------------------------*/
+
 body {
         padding-top: 0px;
         padding-bottom: 0px;
