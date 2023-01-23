@@ -544,31 +544,6 @@ ul#subnavbar a {
 ul#subnavbar a:hover {
         background:url("../assets/bullet.png") no-repeat 0 -18px;
 }
-ul#breadcrumbs {
-        list-style: none;
-        margin: 0 0 10px 0;
-        padding: 0;
-        height: 29px;
-}
-ul#breadcrumbs li {
-        list-style: none;
-        float:left;
-        line-height:29px;
-        color:#777;
-        background:url("../assets/bcrumbs.png") no-repeat bottom right;
-}
-ul#breadcrumbs li a, ul#breadcrumbs li span {
-        display:block;
-        background:url("../assets/bcrumbs_left.png") no-repeat left center;
-        padding: 0 15px 0 10px;
-}
-ul#breadcrumbs li:first-child a {
-        background:url("../assets/bcrumbs_left_first.png") no-repeat left center;
-}
-
-div#fastbar {
-        margin: 0 0 30px 0;
-}
 
 div.news_item {
         padding: 0 20px 20px 0;
@@ -596,53 +571,6 @@ div.news_item a:hover.more {
         background:url("../assets/bullet.png") no-repeat 0 -20px;
 }
 
-div.knowledge_item {
-        padding: 0 20px 20px 0;
-}
-div.knowledge_item h3 {
-        font: 12px/1.875 Arial, Helvetica, sans-serif;
-        text-transform:none;
-        font-weight: bold;
-        color: #960407;
-        text-decoration: none;
-        margin: 0 0 0px 0;
-}
-div.knowledge_item span.date {
-        font-size: 12px;
-        color: #848383;
-        margin-right: 20px;
-}
-div.knowledge_item a.more {
-        background: url("../assets/bullet_green.png") no-repeat 0 0px;
-        padding-left: 20px;
-}
-div.knowledge_item a:hover.more {
-        background:url("../assets/bullet_green.png") no-repeat 0 -20px;
-}
-div.knowledge_item p {
-        font-size: 12px;
-        line-height: 1.5;
-        margin: 0;
-}
-div.fastlink {
-        padding: 10px 0 10px 0;
-}
-div.fastlink p {
-        margin: 0;
-        padding: 0;
-        font-size: 14px;
-}
-
-div.fastlink h3, div.fastlink p {
-margin-left: 85px;
-}
-
-div.fastlink h3 {
-font-size: 20px;
-font-weight: bold;
-text-transform: none;
-margin-bottom: 4px;
-}
 
 div#footer {
         border-top: 1px solid #ccc;
