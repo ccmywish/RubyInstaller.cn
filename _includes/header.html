@@ -1,7 +1,7 @@
 <div id="header">
   <ul id="navbar">
     <li {% if page.url=="/" %} id="active" {% endif %}>
-      <a href="{{ " /" | relative_url }}">首页</a>
+      <a href="{{ "/" | relative_url }}">首页</a>
     </li>
 
     <li {% if page.url contains "/news" %} id="active" {% endif %}>
@@ -9,11 +9,11 @@
     </li>
 
     <li {% if page.url contains "/download" %} id="active" {% endif %}>
-      <a href="{{ " /download" | relative_url }}">下载</a>
+      <a href="{{ "/download" | relative_url }}">下载</a>
     </li>
 
     <li {% if page.url contains "/about" %} id="active" {% endif %}>
-      <a href="{{ " /about" | relative_url }}">关于</a>
+      <a href="{{ "/about" | relative_url }}">关于</a>
     </li>
 
     <li><a href="{{ site.issues_link }}">反馈</a></li>
