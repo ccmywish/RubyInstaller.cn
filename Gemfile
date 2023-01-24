@@ -9,11 +9,14 @@ gem "jekyll", "~> 4.3"
 # github-pages只能要求jekyll为3.9，但是3.9有bug
 
 # If you have any plugins, put them here!
-# 插件更新检查时间 <2023-01-21>
+# 插件更新检查时间 <2023-01-24>
 group :jekyll_plugins do
    gem "jekyll-avatar",  "~> 0.8"
    gem "jekyll-feed",    "~> 0.17"
    gem "jekyll-sitemap", "~> 1.4"
+
+   # 使用的机会比较少，暂时不用
+   # gem "jekyll-admin",   "~> 0.11" # localhost:4000/admin
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
