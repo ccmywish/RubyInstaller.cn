@@ -478,7 +478,7 @@ div#intro-container a {
 /* 第二段介绍文字 */
 #intro-p2 {
         font-size: 17px;
-        margin: 35px 0px 20px 0px;
+        margin: 35px 0px 10px 0px;
 }
 
 div#intro p {
@@ -509,9 +509,9 @@ div#intro h1 {
 
 /* 首页中的下载按钮 */
 div#download_btn span {
-        font-size: 25px;
+        font-size: 22px;
         font-weight:bold;
-        line-height: 3.3;  /* 调整相对于<a>上边沿的距离 */
+        line-height: 3.7;  /* 调整相对于<a>上边沿的距离 */
         color: #ff9d49;  /* 鞭炮爆竹色 */
 }
 
