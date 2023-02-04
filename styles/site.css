@@ -509,11 +509,12 @@ div#intro h1 {
 
 /* 首页中的下载按钮 */
 div#download_btn span {
-        font-size: 30px;
+        font-size: 25px;
         font-weight:bold;
-        line-height: 2.7;
-        color: #fff;
+        line-height: 3.3;  /* 调整相对于<a>上边沿的距离 */
+        color: #ff9d49;  /* 鞭炮爆竹色 */
 }
+
 div#download_btn a, div#download_btn a:link, div#download_btn a:visited {
         /*
         其实下载按钮居中可能还没有放到旁边好看，所以注释掉
