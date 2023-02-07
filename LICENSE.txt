@@ -1,6 +1,6 @@
 BSD 3-Clause License
 
-Copyright (c) 2021-present ccmywish and "rubyinstaller.org-website" contributors(https://github.com/oneclick/rubyinstaller.org-website)
+Copyright (c) 2021-present Aoran Zeng and "rubyinstaller.org-website" contributors(https://github.com/oneclick/rubyinstaller.org-website)
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
