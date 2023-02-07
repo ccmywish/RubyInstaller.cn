@@ -1,13 +1,39 @@
-# 先完全删除所有内容
-*
+########################################
+#  # 先完全删除所有内容
+#  *
+#
+#  # 保留自己
+#  !.gitignore
+#
+#  # 保留我们要保留的
+#  !LICENSE.txt
+#  !README.md
+#
+#  # *号没用，必须一个个添加
+#  !original/about.jpeg
+#  !original/download.jpeg
+#  !original/index.jpeg
+#  !original/post.jpeg
+#
+#  !v1.0/about.jpeg
+#  !v1.0/download.jpeg
+#  !v1.0/index.jpeg
+#  !v1.0/post.jpeg
+#
+#  !v2.0/about.jpeg
+#  !v2.0/download.jpeg
+#  !v2.0/index.jpeg
+#  !v2.0/post.jpeg
+#
+#  !v2.1/download.jpeg
+#  !v2.1/index.jpeg
+#  !v2.1/hehe.txt
+#
+#  !v2.0/post.jpeg
+#
+#
+# 以上方法完全没用，似乎!根本无效
+########################################
 
-# 保留自己
-!.gitignore
-
-# 保留我们要保留的
-!original
-!v1.0
-!v2.0
-
-!LICENSE.txt
-!README.md
+_site
+.jekyll-cache
