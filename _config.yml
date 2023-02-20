@@ -19,6 +19,7 @@ exclude:
   - CNAME
   - Rakefile
   - LICENSE.txt
+  - ReleaseChangeLogs
 
 # Ref: https://jekyllrb.com/docs/configuration/options/
 # dotfiles are excluded by default

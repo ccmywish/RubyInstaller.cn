@@ -5,6 +5,8 @@ translated:
   original_link: https://github.com/oneclick/rubyinstaller2/blob/RubyInstaller-3.2.1-1/CHANGELOG-3.2.md#rubyinstaller-321-1---2023-02-09
 ---
 
+<br>
+
 ## RubyInstaller 3.2.1-1 [2023-02-09]
 
 ### 变化
@@ -16,6 +18,7 @@ translated:
 - 不要将bindir设置为不存在的目录
   这个和 https://github.com/rubygems/rubygems/issues/6332 相关
 
+<br>
 
 ## RubyInstaller 3.2.0-1 [2022-12-29]
 
